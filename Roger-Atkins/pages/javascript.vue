@@ -1,0 +1,88 @@
+<template>
+  <section class='container'>
+    <article>
+      <div>
+        <h4>JAVASCRIPT</h4>
+        <p>
+          I still recall when our lead Java developer, a grin on his face, dropped a massive tome on my desk that looked like it belonged to a Wizard.
+          This is some kind of mistake I thought, I want to learn Javascript, not read War and Peace. And thus began my long on and off again
+          relationship with javascript. To be fair I kind of had an idea of what I was getting myself into. Long days I sat the next desk over from
+          our lead Java developer. Often times he could be heard muttering 'why isn't that working?!' or grumbling something about 'hash tables' when
+          dealing with recalcitrant Javascript problems.
+        </p>
+
+        <p>
+          Back then there was no real stack overflow, the browser wars were in full swing, the joys of accessing DOM elements different for each
+          browser. And alerts everywhere through your code to track down those incredibly descriptive 'null pointer' errors that the browser would
+          throw your way. 'Ok I made it past alert five but crashed before alert six'. No inspect element, no console.log, tables dominated design,
+          people had to get creative with frames and tables to realise their designs. And good old Dreamweaver. Remember var's? And how amazingly
+          strict(not) their scope was, 'Oh that is a block level scope, that var is available anywhere'.
+        </p>
+
+        <p>
+          Now you have a glimpse of the past let us look at how much modern Javascript rocks. Granted it still has issues, I think it always will.
+          It was built as a glue language for Netscape. Marc Andreessen, the founder of Netscape, believed that HTML needed a "glue language".
+          That was easy to use by Web designers and part-time programmers to assemble components such as images and plugins, where the code could be
+          written directly in the Web page markup. Based on Java syntax Brendan Eich wrote the prototype in 10 days, called Mocha internally it went
+          out as livescript.
+        </p>
+        <br/>
+        <hr class='gradient'/>
+        <br/>
+      </div>
+      <javascript_class_desc_001 />
+      <javascript_class_desc_002 />
+    </article>
+  </section>
+
+</template>
+
+<script>
+import javascript_class_desc_001 from '../components/javascript_class_desc_001.vue'
+import javascript_class_desc_002 from '../components/javascript_class_desc_002.vue'
+
+export default {
+  components: {
+    javascript_class_desc_001,
+    javascript_class_desc_002
+  },
+
+  transition: {
+    name: 'fade',
+    mode: 'out-in'
+  },
+
+  head() {
+    return{
+      title: 'Javascript',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Roger Atkins relationship with javascript'
+        }
+      ]
+    }
+  }
+}
+</script>
+
+<style scoped>
+.fade-enter-active,
+.fade-leave-active {
+  transition-duration: 0.5s;
+  transition-property: opacity;
+  transition-timing-function: ease;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0
+}
+
+hr.gradient {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+</style>
