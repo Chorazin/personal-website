@@ -3,25 +3,29 @@
     <div class='row'>
       <div class='col l8 m12 s12'>
         <p>
-          <img src='../assets/code_ex_002_v001.jpg' class='responsive-img'>
+          <img src='../assets/code_ex_003_v001.jpg' class='responsive-img'>
         </p>
       </div>
       <div class='col l4 m12 s12'>
         <p>
-          ok so below we wish to add the carry_capacity property to trucks. And because we have our own constructor attached to this new
-          class that is what will be executed to build the props of this object. If no constructor was present it would
-          default back to the parent constructor above that we are extending from. But we need our own constructor because we are adding a special
-          property specific to trucks, carry_capacity.
+          Ok now lets wind the clock back, before the bathosphere of ES6 descended from the lighthouse to
+          carry us to the promised land of Rapture. And to be fair, how javascript actually sets up objects under the hood with the prototype model
+          and the __proto__ you will see greyed out in the console with the methods attached.
 
-          The super call inside a constructor simply goes and fetches the parents constructor,
-          and if it exists it runs that constructor to set up properties for the object from which it was called. It saves
-          copy pasta all the parent classes properties.
         </p>
         <p>
-          The super call inside a constructor simply goes and fetches the parents constructor,
-          and if it exists it runs that constructor to set up properties for the object from which it was called. It saves
-          copy pasta all the parent classes properties.
+          Every object in Javascript has a prototype.
+          And prototypes contain all the methods for that object type. Ok, so why? Well think of it like this, array methods
+          would be stored multiple times for each array you create, users array, fruit array, vehicle array. Seems a bit clunky when you can just attach the array prototype to an array and store
+          every method once on the prototype. Then attach that array prototype to every individual array.
         </p>
+        <p>
+          The __proto__ you see is merely
+          a pointer to the relevant prototype, array prototype, date prototype, etc. This brings me to my next point, when using a constructor
+          you can just create a method inside that constructor, but it attaches the method to each individual vehicle. Wouldnt it be better
+          to create the method on the vehicle prototype that javascript has ready for us to go?
+        </p>
+
       </div>
     </div>
   </div>

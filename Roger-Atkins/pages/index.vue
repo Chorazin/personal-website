@@ -46,7 +46,7 @@ export default {
 
   head() {
     return{
-      title: 'Web Dev Design - Roger Atkins',
+      title: 'Web Development Newcastle Australia',
       meta: [
         {
           hid: 'description',
