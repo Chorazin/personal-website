@@ -32,6 +32,7 @@
       </div>
       <javascript_class_desc_001 />
       <javascript_class_desc_002 />
+      <javascript_class_desc_003 />
     </article>
   </section>
 

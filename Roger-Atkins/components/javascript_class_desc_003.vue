@@ -8,10 +8,14 @@
       </div>
       <div class='col l4 m12 s12'>
         <p>
-          ok so this(above/left) we wish to add the carry_capacity property to trucks. And because we have our own constructor attached to this new
+          ok so below we wish to add the carry_capacity property to trucks. And because we have our own constructor attached to this new
           class that is what will be executed to build the props of this object. If no constructor was present it would
           default back to the parent constructor above that we are extending from. But we need our own constructor because we are adding a special
           property specific to trucks, carry_capacity.
+
+          The super call inside a constructor simply goes and fetches the parents constructor,
+          and if it exists it runs that constructor to set up properties for the object from which it was called. It saves
+          copy pasta all the parent classes properties.
         </p>
         <p>
           The super call inside a constructor simply goes and fetches the parents constructor,
