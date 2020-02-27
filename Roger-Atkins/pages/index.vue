@@ -22,7 +22,7 @@
         <div class='col m4 s12'><i class="material-icons">cloud_circle</i></div>
       </div>
     </section>
-    <parallax_comp v-bind:img_src='img_src'/>
+    <parallax_comp v-bind:parallax_info_3='parallax_info_3'/>
 
     <div class='container row icon_section grey-text lighten-4 center-align'>
       <div class='col s4'><i class="material-icons expand">donut_small</i></div>
@@ -70,7 +70,11 @@ export default {
         {quote: '"Always code as if the person who ends up maintaining your code will be a violent psychopath who knows where you live"', author: 'John Woods'},
         {quote: '"Give a man a program, frustrate him for a day. Teach a man to program, frustrate him for a lifetime."', author: 'Muhammad Waseem'}
       ],
-      img_src: '/parallax_v002.jpg'
+
+      parallax_info_3: {
+        url: '/parallax_v002.jpg',
+        heading_2:'AMAZING'
+      }
     }
   },
 

@@ -1,6 +1,6 @@
 <template>
   <section>
-    <parallax_comp v-bind:img_src='img_src, heading'/>
+    <parallax_comp v-bind:parallax_info_1='parallax_info_1' />
     <article>
       <div class='container'>
         <div>
@@ -42,7 +42,7 @@
       <javascript_class_desc_001 />
       <javascript_class_desc_002 />
     </div>
-      <parallax_comp v-bind:img_src='img_src_2, heading_2'/>
+      <parallax_comp v-bind:parallax_info_2='parallax_info_2' />
       <div class='container'>
       <javascript_class_desc_003 />
     </div>
@@ -69,10 +69,14 @@ export default {
   },
   data() {
     return {
-      img_src: '/javascript_parallax_v002.jpg',
-      img_src_2: '/javascript_parallax_2_v001.jpg',
-      heading: 'JAVASCRIPT',
-      heading_2: 'AMAZING'
+      parallax_info_1: {
+        url: '/javascript_parallax_v002.jpg',
+        heading:'JAVASCRIPT'
+      },
+      parallax_info_2: {
+        url: '/javascript_parallax_2_v001.jpg',
+        heading_2:'AMAZING'
+      }
     }
   },
 
@@ -94,12 +98,12 @@ export default {
     }
   },
 
-  /* mounted() {
+  mounted() {
     //setup materialize parallex on component mount
     const elems = document.querySelectorAll('.parallax');
     const instances = M.Parallax.init(elems);
 
-  } */
+  }
 }
 </script>
 
