@@ -12,8 +12,8 @@
         </div>
         <div class='col s4'></div>
       </div>
-      <img class='responsive-img hide-on-small-only' src='../assets/splash_v003.jpg'>
-      <img class='responsive-img hide-on-med-and-up' src='../assets/logo_v001.jpg'>
+      <img class='responsive-img hide-on-small-only' src='~/assets/splash_v003.jpg'>
+      <img class='responsive-img hide-on-med-and-up' src='~/assets/logo_v001.jpg'>
     </div>
     <section>
       <div class='container row icon_section grey-text lighten-4 center-align'>
@@ -22,11 +22,8 @@
         <div class='col m4 s12'><i class="material-icons">cloud_circle</i></div>
       </div>
     </section>
-    <div class="parallax-container">
-      <div class="parallax">
-        <img src='../assets/parallex_v002.jpg' class='responsive-img'>
-      </div>
-    </div>
+    <parallax_comp v-bind:img_src='img_src'/>
+
     <div class='container row icon_section grey-text lighten-4 center-align'>
       <div class='col s4'><i class="material-icons expand">donut_small</i></div>
       <div class='col s4'><i class="material-icons">airplay</i></div>
@@ -36,12 +33,18 @@
 </template>
 
 <script>
-
+import parallax_comp from '../components/parallax_comp.vue'
 
 export default {
+
+
   transition: {
     name: 'fade',
     mode: 'out-in'
+  },
+
+  components: {
+    parallax_comp
   },
 
   head() {
@@ -66,7 +69,8 @@ export default {
         {quote: '"Intuitive design is how we give the user new superpowers"', author: 'Jared Spool'},
         {quote: '"Always code as if the person who ends up maintaining your code will be a violent psychopath who knows where you live"', author: 'John Woods'},
         {quote: '"Give a man a program, frustrate him for a day. Teach a man to program, frustrate him for a lifetime."', author: 'Muhammad Waseem'}
-      ]
+      ],
+      img_src: '/parallax_v002.jpg'
     }
   },
 

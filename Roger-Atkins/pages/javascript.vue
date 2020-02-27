@@ -1,16 +1,16 @@
 <template>
-  <section class='container'>
+  <section>
+    <parallax_comp v-bind:img_src='img_src, heading'/>
     <article>
-      <div>
-        <h4>JAVASCRIPT</h4>
+      <div class='container'>
+        <div>
         <p>
+          <h4 class='underline'>Remember the good ole' days?</h4>
           I still recall when our lead Java developer, a grin on his face, dropped a massive tome on my desk that looked like it belonged to a Wizard.
           'This is some kind of mistake' I thought, 'I want to learn Javascript, not read War and Peace'. And thus began my long on and off again
           relationship with javascript. To be fair I kind of had an idea of what I was getting myself into. Long days I sat the next desk over from
           our lead Java developer. Often times he could be heard muttering 'why isn't that working?!' or grumbling something about 'hash tables' when
-          dealing with recalcitrant Javascript problems. They have invented fancy names for roles over the years, front end developer, full stack dev, UI/UX
-          designer. Hell even Javascript itself has conjured up new names for things that were just accepted as part of the functionality of the language.
-          Hoisting and event bubbling spring to mind.
+          dealing with recalcitrant Javascript problems.
         </p>
 
         <p>
@@ -41,7 +41,11 @@
       </div>
       <javascript_class_desc_001 />
       <javascript_class_desc_002 />
+    </div>
+      <parallax_comp v-bind:img_src='img_src_2, heading_2'/>
+      <div class='container'>
       <javascript_class_desc_003 />
+    </div>
       <br/>
       <hr class='gradient'/>
       <br/>
@@ -54,12 +58,22 @@
 import javascript_class_desc_001 from '../components/javascript_class_desc_001.vue'
 import javascript_class_desc_002 from '../components/javascript_class_desc_002.vue'
 import javascript_class_desc_003 from '../components/javascript_class_desc_003.vue'
+import parallax_comp from '../components/parallax_comp.vue'
 
 export default {
   components: {
     javascript_class_desc_001,
     javascript_class_desc_002,
-    javascript_class_desc_003
+    javascript_class_desc_003,
+    parallax_comp
+  },
+  data() {
+    return {
+      img_src: '/javascript_parallax_v002.jpg',
+      img_src_2: '/javascript_parallax_2_v001.jpg',
+      heading: 'JAVASCRIPT',
+      heading_2: 'AMAZING'
+    }
   },
 
   transition: {
@@ -78,11 +92,20 @@ export default {
         }
       ]
     }
-  }
+  },
+
+  /* mounted() {
+    //setup materialize parallex on component mount
+    const elems = document.querySelectorAll('.parallax');
+    const instances = M.Parallax.init(elems);
+
+  } */
 }
 </script>
 
 <style scoped>
+
+
 .fade-enter-active,
 .fade-leave-active {
   transition-duration: 0.5s;
@@ -99,5 +122,11 @@ hr.gradient {
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+.underline{
+  border-bottom: 1px solid rgba(234, 160, 0, 1);
+  padding-bottom: 15px;
+  width: 40%;
 }
 </style>

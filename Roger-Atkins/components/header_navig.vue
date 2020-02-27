@@ -8,7 +8,7 @@
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li class='center'><nuxt-link to='/'><i class="material-icons icon_grey">home</i></nuxt-link></li>
             <li class='center'><nuxt-link to='/about'><i class="material-icons  icon_grey">info</i></nuxt-link></li>
-            <li class='center'><nuxt-link to='/javascript'><img src='../assets/js_v001.jpg' class='responsive-img'></nuxt-link></li>
+            <li class='center adjust_spacer'><nuxt-link to='/javascript'><img src='~/assets/js_v001.jpg' class='responsive-img'></nuxt-link></li>
           </ul>
         </div>
       </nav>
@@ -56,12 +56,16 @@ nav ul a:hover {
 }
 .header a {
   width: 8rem;
+
 }
 
 .icon_grey {
   color: #9e9e9e;
 }
 
+.adjust_spacer {
+  margin-top: 2px;
+}
 /*.header {
   display: flex;
   justify-content: space-between;
