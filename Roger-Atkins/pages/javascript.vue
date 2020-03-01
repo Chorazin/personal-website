@@ -75,7 +75,7 @@ export default {
       },
       parallax_info_2: {
         url: '/javascript_parallax_2_v001.jpg',
-        heading:'AMAZING'
+        heading:'THIS IS THE WAY'
       }
     }
   },

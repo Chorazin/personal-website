@@ -1,7 +1,5 @@
 <template>
   <div>
-    <!-- display text based on what variables are present -->
-
     <div v-if='this.parallax_info_1' class='overlay_txt'>
       <h3>{{this.parallax_info_1.heading}}</h3>
       <p class='spiel'>some cool text here</p>

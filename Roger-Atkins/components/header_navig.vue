@@ -38,11 +38,6 @@ export default {
         instance.close();
       })
     })
-
-
-
-
-
   }
 }
 </script>
@@ -66,29 +61,4 @@ nav ul a:hover {
 .adjust_spacer {
   margin-top: 2px;
 }
-/*.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1rem;
-  border-bottom: 1px dotted #CCCCCC;
-}
-
-.header .title {
-  font-size: 3rem;
-}
-
-
-.header ul {
-  display: flex;
-}
-
-.header a {
-  display: inline-block;
-  background: #000000;
-  padding: 0.3rem 1rem;
-  margin-right: 0.5rem;
-  color: #9e9e9e;
-}
-*/
 </style>
