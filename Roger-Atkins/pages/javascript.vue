@@ -105,11 +105,9 @@ export default {
 
   }
 }
-</script>
+</script scoped>
 
-<style scoped>
-
-
+<style>
 .fade-enter-active,
 .fade-leave-active {
   transition-duration: 0.5s;

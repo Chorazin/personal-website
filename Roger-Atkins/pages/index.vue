@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- nav componenet here -->
-    <div class='splash'>
+    <div>
       <div class='row quotes hide-on-small-only'>
         <div class='col s4'></div>
         <div class='col s4'>
@@ -128,12 +128,8 @@ export default {
 section {
   padding-top: 100px;
   padding-bottom: 100px;
-  background-color: #000000;
-}
-.splash {
- background-color: #000000;
-}
 
+}
 .quotes {
   color: white;
   width: 100%;
@@ -141,23 +137,26 @@ section {
   top: 300px;
   height: 400px;
 }
-@media only screen and (max-width: 1200px) {
-.quotes {
-  top: 170px;
-}
 
-.lobs {
+/*media queries for mobile positioning adjustment*/
+@media only screen and (max-width: 1200px) {
+  .quotes {
+  top: 170px;
+  }
+  .lobs {
   font-size: 12pt;
   width: 300px;
+  }
 }
-}
+
+
 @media only screen and (max-width: 700px) {
-.quotes {
+  .quotes {
   top: 90px;
-}
-.lobs {
+  }
+  .lobs {
   font-size: 10pt;
   width: 200px;
-}
+  }
 }
 </style>

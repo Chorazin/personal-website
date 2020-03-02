@@ -32,6 +32,7 @@ export default {
 </script>
 
 <style scoped>
+
 .svg_container {
   position: relative;
   line-height: 0;
@@ -48,7 +49,8 @@ h3 {
   letter-spacing: 15px;
   font-family: "roboto";
   font-size: 5em;
-  border: 1px solid #eaa000;
+  border: 1px solid;
+  border-color: var(--main_gold_color);
   padding-left: 10px;
 }
 .overlay_txt {
@@ -57,7 +59,7 @@ h3 {
   right: 0px;
   margin-right: 300px;
   top: 30%;
-  color: #eaa000;
+  color: var(--main_gold_color);
 }
 
 .spiel {
