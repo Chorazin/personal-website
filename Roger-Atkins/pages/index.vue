@@ -5,7 +5,7 @@
       <div class='row quotes hide-on-small-only'>
         <div class='col s4'></div>
         <div class='col s4'>
-          <div class='lobs bounce'>
+          <div class='lobs'>
           {{sorted_array.quote}}
             <div class='center-align'>- {{sorted_array.author}}</div>
           </div>

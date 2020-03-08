@@ -30,5 +30,7 @@ name: 'javascript_class_desc_002'
 </script>
 
 <style scoped>
-
+.row {
+  margin-bottom: 100px;
+}
 </style>

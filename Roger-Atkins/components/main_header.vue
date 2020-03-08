@@ -33,6 +33,7 @@ export default {
 
 <style scoped>
 
+
 .svg_container {
   position: relative;
   line-height: 0;
@@ -69,4 +70,22 @@ h3 {
   font-family: Impact, Charcoal, sans-serif;
 }
 
+
+
+@media only screen and (max-width: 700px) {
+  .overlay_txt {
+      margin-left: 0px;
+      margin-right: 0px;
+  }
+  h3 {
+    font-family: "roboto";
+    font-size: 3em;
+  }
+}
+
+@media only screen and (max-width: 1200px){
+  .overlay_txt {
+      margin-right: 80px;
+  }
+}
 </style>

@@ -105,7 +105,8 @@ export default {
 
   }
 }
-</script scoped>
+</script>
+
 
 <style>
 .fade-enter-active,

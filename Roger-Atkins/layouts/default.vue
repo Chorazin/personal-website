@@ -22,12 +22,13 @@ export default {
 <style>
 :root {
   --main_bg_color: #000000;
-  --main_gold_color: #9e9e9e;
+  --main_gold_color: #eaa000;
+  --main_grey_text_color: #9e9e9e;
 }
 
 body {
   background-color: var(--main_bg_color);
-  color: var(--main_gold_color);
+  color: var(--main_grey_text_color);
 }
 
 @font-face {
