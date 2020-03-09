@@ -25,7 +25,7 @@
     </section>
     <parallax_comp v-bind:parallax_info_3='parallax_info_3'/>
 
-    <div class='container row icon_section grey-text lighten-4 center-align'>
+    <div class='container row icon_section grey-text lighten-4 center-align spacer'>
       <div class='col s4'><i class="material-icons expand">donut_small</i></div>
       <div class='col s4'><i class="material-icons">airplay</i></div>
       <div class='col s4'><i class="material-icons">cloud_circle</i></div>
@@ -145,18 +145,22 @@ export default {
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 
-
 section {
   padding-top: 100px;
   padding-bottom: 100px;
 
 }
+
 .quotes {
   color: white;
   width: 100%;
   position: absolute;
   top: 300px;
   height: 400px;
+}
+
+.spacer {
+  margin-top: 75px
 }
 
 /*media queries for mobile positioning adjustment*/

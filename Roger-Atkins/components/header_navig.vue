@@ -49,6 +49,7 @@ nav {
 nav ul a:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
+
 .header a {
   width: 8rem;
 
