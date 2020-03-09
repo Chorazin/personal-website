@@ -2,10 +2,11 @@
   <div>
     <div v-if='this.parallax_info_1' class='overlay_txt'>
       <h3>{{this.parallax_info_1.heading}}</h3>
-      <p class='spiel'>some cool text here</p>
+      <p class='spiel'>Null pointers you say?</p>
     </div>
     <div v-if='this.parallax_info_2' class='overlay_txt'>
       <h3>{{this.parallax_info_2.heading}}</h3>
+      <p class='spiel'>- Mando</p>
     </div>
     <div class='svg_container'>
       <svg viewBox='0 0 1920 150'>
@@ -66,7 +67,8 @@ h3 {
 .spiel {
   font-size: 2em;
   text-align: right;
-  margin-right: 20px;
+  margin-right: 0px;
+  margin-top: 0px;
   font-family: Impact, Charcoal, sans-serif;
 }
 

@@ -1,14 +1,15 @@
 <template>
   <div>
-    <!-- nav componenet here -->
     <div>
       <div class='row quotes hide-on-small-only'>
         <div class='col s4'></div>
         <div class='col s4'>
-          <div class='lobs'>
-          {{sorted_array.quote}}
-            <div class='center-align'>- {{sorted_array.author}}</div>
-          </div>
+          <transition name='slide_one' appear>
+            <div class='lobs'>
+              {{sorted_array.quote}}
+              <div class='center-align'>- {{sorted_array.author}}</div>
+            </div>
+          </transition>
         </div>
         <div class='col s4'></div>
       </div>
@@ -97,6 +98,25 @@ export default {
 
 
 <style scoped>
+.slide_one-enter-active {
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease;
+}
+
+.slide_one-enter-active {
+  transition-delay: 0.5s;
+}
+
+.slide_one-enter {
+  opacity: 0;
+  transform: translateY(-100px);
+}
+
+.slide_one-to {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+
 .material-icons{
    font-size: 48px;
 }
@@ -122,6 +142,7 @@ export default {
   font-family: "lobster";
   width: 400px;
   font-size: 20px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 
 

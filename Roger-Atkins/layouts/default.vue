@@ -1,7 +1,9 @@
 <template>
   <div>
-    <header_navig />
-    <nuxt />
+    <div class='wrapping_element'>
+      <header_navig />
+      <nuxt />
+    </div>
     <footer_spam />
   </div>
 </template>
@@ -21,7 +23,7 @@ export default {
 
 <style>
 :root {
-  --main_bg_color: #000000;
+  --main_bg_color: rgba(0, 0, 0, 0.5);
   --main_gold_color: #eaa000;
   --main_grey_text_color: #9e9e9e;
 }
@@ -41,4 +43,11 @@ body {
   src: url(../assets/fonts/Roboto-Regular.ttf);
 }
 
+
+.wrapping_element {
+  z-index: 1;
+  padding-bottom: 100px;
+  position: relative;
+  background-color: black;
+}
 </style>

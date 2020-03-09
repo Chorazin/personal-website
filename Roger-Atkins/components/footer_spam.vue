@@ -1,6 +1,7 @@
 <template>
-  <div>
-    BIBFIEBFEJILBJFBJKFEBJKFBLJKEKFKJEFLN
+  <div class='footer_spacer_test'>
+    BIBFIEBFEJILBJFBJKFEBJKFBLJKEKFKJEFLN<br><br/><br><br/><br><br/>
+    DKDJFNJKDFNDJKFNDKJFNDFDNJK
   </div>
 </template>
 
@@ -11,4 +12,11 @@ export default {
 </script>
 
 <style scoped>
+.footer_spacer_test {
+  height: 300px;
+  background-color: blue;
+  position: sticky;
+  bottom: 0px;
+  z-index: -5;
+}
 </style>
