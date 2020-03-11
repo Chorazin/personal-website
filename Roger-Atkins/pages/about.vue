@@ -40,27 +40,23 @@
           <div class='col s12 m4'>
             <ul>
               <li><a href='https://nuxtjs.org/' target='_blank'>Nuxt.js</a></li>
-              <li><a href='https://gridsome.org/' target='_blank'>Gridsome.js</a></li>
               <li><a href='https://vuetifyjs.com/en/' target='_blank'>Vuetify</a></li>
               <li><a href='https://materializecss.com/' target='_blank'>Materialize</a></li>
               <li><a href='https://getbootstrap.com/' target='_blank'>Bootstrap</a></li>
-              <li><a href='https://bulma.io/' target='_blank'>Bulma</a></li>
+              <li><a href='https://firebase.google.com/' target='_blank'>Firebase</a></li>
             </ul>
           </div>
           <div class='col s12 m4'>
             <ul>
-              <li><a href='https://tailwindcss.com/' target='_blank'>Tailwindcss</a></li>
               <li><a href='https://nodejs.org/en/' target='_blank'>Node.js</a></li>
               <li><a href='https://www.mongodb.com/' target='_blank'>MongoDb</a></li>
               <li><a href='https://mongoosejs.com/docs/' target='_blank'>Mongoose</a></li>
-              <li><a href='https://gridsome.org/' target='_blank'>Mocha</a></li>
               <li><a href='http://expressjs.com/' target='_blank'>Express</a></li>
+              <li><a href='https://www.adobe.com/au/' target='_blank'>Adobe Suite</a></li>
           </ul>
           </div>
           <div class='col s12 m4'>
             <ul>
-                <li><a href='https://firebase.google.com/' target='_blank'>Firebase</a></li>
-                <li><a href='https://www.adobe.com/au/' target='_blank'>Adobe Suite</a></li>
                 <li><a href='https://www.figma.com/' target='_blank'>Figma</a></li>
                 <li><a href='https://github.com/' target='_blank'>Github</a></li>
                 <li><a href='https://webpack.js.org/' target='_blank'>Webpack</a></li>
@@ -68,7 +64,13 @@
             </ul>
           </div>
         </div>
-          With my next step being Flutter and GraphQL. I have already written a simple backend for GraphQL with MongoDb but I want to expand upon that and plug in a front
+        <p>
+          My next steps are a more structured and OO approach to CSS without relying on SCSS. A decoupling of visual and layout design and a more component based
+          approach to CSS. I recently attended a great talk by <a href='https://www.youtube.com/watch?v=ZWPMzJfJHnc' target='_blank'>Mike Riethmuller on CSS
+          Architecture for Modern Web Applications</a> which takes the CSS in JS paradigm to the next level. So rather than say having a class declaration that
+          defines the element, the element should be able to pull in reusable CSS components That defines layout and visual effect.
+
+          I have already written a simple backend for GraphQL with MongoDb but I want to expand upon that and plug in a front
           end ui to replace the Graphiql query interface. So probably building it out in something like Vue, Vue-Apollo.
         </p>
         <p>

@@ -1,21 +1,19 @@
 <template>
-  <div>
-    <div>
-      <div class='row quotes hide-on-small-only'>
-        <div class='col s4'></div>
-        <div class='col s4'>
-          <transition name='slide_one' appear>
-            <div class='lobs'>
-              {{sorted_array.quote}}
-              <div class='center-align'>- {{sorted_array.author}}</div>
-            </div>
-          </transition>
-        </div>
-        <div class='col s4'></div>
+  <div class='home'>
+    <div class='row quotes hide-on-small-only'>
+      <div class='col s4'></div>
+      <div class='col s4'>
+        <transition name='slide_one' appear>
+          <div class='lobs lobs_width'>
+            {{sorted_array.quote}}
+            <div class='center-align'>- {{sorted_array.author}}</div>
+          </div>
+        </transition>
       </div>
-      <img class='responsive-img hide-on-small-only' src='~/assets/splash_v003.jpg'>
-      <img class='responsive-img hide-on-med-and-up' src='~/assets/logo_v001.jpg'>
+      <div class='col s4'></div>
     </div>
+    <img class='responsive-img hide-on-small-only' src='~/assets/splash_v003.jpg'>
+    <img class='responsive-img hide-on-med-and-up' src='~/assets/logo_v001.jpg'>
     <section>
       <div class='container row icon_section grey-text lighten-4 center-align'>
         <div class='col m4 s12'><i class="material-icons">donut_small</i></div>
@@ -98,6 +96,8 @@ export default {
 
 
 <style scoped>
+/*VISUAL STYLES ---------------------*/
+/*note inherited core CSS from default.vue*/
 .slide_one-enter-active {
   transition: opacity 0.5s ease-in-out, transform 0.5s ease;
 }
@@ -116,54 +116,56 @@ export default {
   transform: translateY(0px);
 }
 
-
-.material-icons{
-   font-size: 48px;
-}
-
-.fade-enter-active,
-.fade-leave-active {
+.fade-enter-active, .fade-leave-active {
   transition-duration: 0.5s;
   transition-property: opacity;
   transition-timing-function: ease;
 }
 
-.fade-enter,
-.fade-leave-active {
+.fade-enter, .fade-leave-active {
   opacity: 0
 }
 
 .icon_section {
   font-family: "roboto";
-
 }
 
-.lobs {
+.material-icons{
+   font-size: 48px;
+}
+
+.home .lobs {
   font-family: "lobster";
-  width: 400px;
   font-size: 20px;
-  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  color: white;
 }
 
-section {
+
+
+/*LAYOUT STYLES --------------------*/
+.home .lobs_width {
+  width: 400px;
+}
+
+.home section {
   padding-top: 100px;
   padding-bottom: 100px;
-
 }
 
-.quotes {
-  color: white;
+.home .quotes {
   width: 100%;
   position: absolute;
   top: 300px;
   height: 400px;
 }
 
-.spacer {
+.home .spacer {
   margin-top: 75px
 }
 
-/*media queries for mobile positioning adjustment*/
+
+
+/*media queries layout adjustment for mobile positioning*/
 @media only screen and (max-width: 1200px) {
   .quotes {
   top: 170px;

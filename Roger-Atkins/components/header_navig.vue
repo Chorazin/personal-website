@@ -29,7 +29,7 @@ export default {
     //set up the materialize slide in menu on component mount
     const elems = document.querySelectorAll('.sidenav');
     const instances = M.Sidenav.init(elems);
-    //get the materialize instance of the side nav and set a listener to close when a link is clicked
+    //get the materialize instance of the side nav and set a listener to close when a link is touched
     const link_array = document.querySelectorAll(".sidenav > li");
     link_array.forEach(link => {
       link.addEventListener('click', () => {
