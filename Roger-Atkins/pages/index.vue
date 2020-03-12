@@ -4,7 +4,7 @@
       <div class='col s4'></div>
       <div class='col s4'>
         <transition name='slide_one' appear>
-          <div class='lobs lobs_width'>
+          <div class='lobs width_400'>
             {{sorted_array.quote}}
             <div class='center-align'>- {{sorted_array.author}}</div>
           </div>
@@ -143,7 +143,7 @@ export default {
 
 
 /*LAYOUT STYLES --------------------*/
-.home .lobs_width {
+.home .width_400 {
   width: 400px;
 }
 

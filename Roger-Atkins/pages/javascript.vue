@@ -7,7 +7,7 @@
         <p>
           <h4 class='underline'>Remember the good ole' days?</h4>
           I still recall when our lead Java developer, a grin on his face, dropped a massive tome on my desk that looked like it belonged to a Wizard.
-          'This is some kind of mistake' I thought, 'I want to learn Javascript, not read War and Peace'. And thus began my long on and off again
+          'This is some kind of mistake' I thought, 'I want to learn Javascript, not practice the arcane arts'. And thus began my long on and off again
           relationship with javascript. To be fair I kind of had an idea of what I was getting myself into. Long days I sat the next desk over from
           our lead Java developer. Often times he could be heard muttering 'why isn't that working?!' or grumbling something about 'hash tables' when
           dealing with recalcitrant Javascript problems.
@@ -22,7 +22,7 @@
         </p>
 
         <p>
-          I recall after a hiatus from Javascript returning to building web apps/pages and using the inspect element functionality in google chrome.
+          I recall after a hiatus from Javascript returning to building web apps/pages and using the inspect element functionality in google chrome's developer tools.
           This blew me away. Not only did it highlight the areas with a visual reference of what was margin, what was body etc, for the code I hovered over.
           But I could also scroll through the styles. And it provided information about where those styles were loaded from, and I could toggle them on and off
           and see their infuence on the element on the page. Insert mind blown with explosions meme here.

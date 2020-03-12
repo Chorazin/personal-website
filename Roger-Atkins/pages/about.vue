@@ -5,6 +5,9 @@
         <div>
         <p>
           <h4 class='underline'>The Ramblings of a Mad Man!</h4>
+          <p>
+            Written by: Roger Atkins - 3/12/2020 <br/><br/>
+          </p>
           Well about myself I guess, firstly I am a long time Tottenham Hotspur supporter, although I feel sufferer is a better description. And a
           bit of a Cricket tragic. I am also a Newcastle Jets fan(go the Jets) and have been a Newcastle local for oh, 20 odd years now, although I have lived
           in Sydney before, in Artarmon and grew up in Port Macquarie.
@@ -65,10 +68,9 @@
           </div>
         </div>
         <p>
-          My next steps are a more structured and OO approach to CSS without relying on SCSS. A decoupling of visual and layout design and a more component based
+          My next steps are trying a more structured and OO approach to CSS without relying on SCSS. A decoupling of visual and layout design and a more component based
           approach to CSS. I recently attended a great talk by <a href='https://www.youtube.com/watch?v=ZWPMzJfJHnc' target='_blank'>Mike Riethmuller on CSS
-          Architecture for Modern Web Applications</a> which takes the CSS in JS paradigm to the next level. So rather than say having a class declaration that
-          defines the element, the element should be able to pull in reusable CSS components That defines layout and visual effect.
+          Architecture for Modern Web Applications</a> which takes the CSS in JS paradigm to the next level.
 
           I have already written a simple backend for GraphQL with MongoDb but I want to expand upon that and plug in a front
           end ui to replace the Graphiql query interface. So probably building it out in something like Vue, Vue-Apollo.
