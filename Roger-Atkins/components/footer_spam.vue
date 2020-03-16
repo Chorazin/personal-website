@@ -7,7 +7,8 @@
 
 <script>
 export default {
-  name: 'footer_spam'
+  name: 'footer_spam',
+
 }
 </script>
 

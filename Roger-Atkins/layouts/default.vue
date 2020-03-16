@@ -43,7 +43,7 @@ body {
   src: url(../assets/fonts/Roboto-Regular.ttf);
 }
 
-
+/*For use with the slide out footer*/
 .wrapping_element {
   z-index: 1;
   padding-bottom: 100px;
