@@ -72,7 +72,8 @@ export default {
 
       parallax_info_3: {
         url: '/parallax_v002.jpg',
-        heading_2:'AMAZING'
+        heading: 'AMAZING',
+        quote: '"Zing!"'
       }
     }
   },

@@ -1,12 +1,12 @@
 <template>
   <section>
+    <parallax_comp v-bind:parallax_info_5='parallax_info_5'/>
     <article>
-      <div class='container'>
-        <div>
+      <div class='container spacer'>
         <p>
           <h4 class='underline'>The Ramblings of a Mad Man!</h4>
           <p>
-            Written by: Roger Atkins - 3/12/2020 <br/><br/>
+            Written by: Roger Atkins - 12/3/2020 <br/><br/>
           </p>
           Well about myself I guess, firstly I am a long time Tottenham Hotspur supporter, although I feel sufferer is a better description. And a
           bit of a Cricket tragic. I am also a Newcastle Jets fan(go the Jets) and have been a Newcastle local for oh, 20 odd years now, although I have lived
@@ -25,18 +25,12 @@
           content creation. Even some print media.
         </p>
         <p>
-          Although I would definitely cede that my main skills lie within the Front End Dev sphere, the intersection of humans and technology. And companies
-          should hire professionals in a given field for any large scale projects revolving around said sphere(s). You are not going to hire a plumber and then
-          get him to do your tiling and electrical wiring on a construction project. These are separate professions, although I feel in Web the whole front end
-          thing is getting crushed into the backend or UI/UX and Marketing. With the lines becoming a little blurred between the streams.
+          Although I would definitely cede that my main skills lie within the Front End Dev sphere, the intersection of humans and technology. But feel I can definitely
+          provide some assistance, input and feedback on media, digital design, graphic design, UI/UX, and marketing.
         </p>
-        <p>
-          Which I think may have a little to do with confusion on the roles in what is a rapidly changing field. Take say Ember, Knockout and even Jquery. these were
-          big not all that long ago. Now look at job listings, if you are not in React, Angular or Vue at a distant third, you are not in the running. I feel some older
-          style recruiters/HR just throw buzz words onto adds to cover all bases. Which does not help elucidate the nature of the industry. Why do you want both SQL
-          and noSQL for this project? You are using React, Angular, and Vue all on this project? That seems ..... odd. I need to know CI/CD pipelines? Is this role a
-          DevOps or Development role?
-        </p>
+      </div>
+        <parallax_comp v-bind:parallax_info_4='parallax_info_4'/>
+        <div class='container'><div>
         <p>
           For now my tech stack I like to build with is Vue.js(CLI 3.0) and it's surrounding ecosystem, such as
         <div class='row'>
@@ -72,7 +66,7 @@
           approach to CSS. I recently attended a great talk by <a href='https://www.youtube.com/watch?v=ZWPMzJfJHnc' target='_blank'>Mike Riethmuller on CSS
           Architecture for Modern Web Applications</a> which takes the CSS in JS paradigm to the next level.
 
-          I have already written a simple backend for GraphQL with MongoDb but I want to expand upon that and plug in a front
+          And GraphQL. I have already written a simple backend for GraphQL with MongoDb but I want to expand upon that and plug in a front
           end ui to replace the Graphiql query interface. So probably building it out in something like Vue, Vue-Apollo.
         </p>
         <p>
@@ -102,12 +96,32 @@
 </template>
 
 <script>
+import parallax_comp from '../components/parallax_comp.vue'
+
 export default {
+  components: {
+    parallax_comp
+  },
+
   transition: {
     name: 'fade',
     mode: 'out-in'
   },
 
+  data() {
+    return {
+      parallax_info_4: {
+        url: '/javascript_parallax_3_v001.jpg',
+        heading:'TECH STACK',
+        quote: "'-the factor'"
+      },
+      parallax_info_5: {
+        url: '/javascript_parallax_4_v001.jpg',
+        heading: '"I SET MY MIND IN MOTION"',
+        quote: '- Piter De Vries'
+      }
+    }
+  },
 
   head() {
     return{
@@ -120,7 +134,16 @@ export default {
         }
       ]
     }
-  }
+  },
+
+  mounted() {
+    //setup materialize parallex on component mount
+    const elems = document.querySelectorAll('.parallax');
+    const instances = M.Parallax.init(elems);
+
+    }
+
+
 }
 </script>
 
@@ -135,6 +158,10 @@ export default {
 .fade-enter,
 .fade-leave-active {
   opacity: 0
+}
+
+.spacer {
+  margin-bottom: 100px;
 }
 
 </style>

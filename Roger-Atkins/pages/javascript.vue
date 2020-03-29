@@ -67,6 +67,7 @@ export default {
     javascript_class_desc_003,
     parallax_comp
   },
+  
   data() {
     return {
       parallax_info_1: {

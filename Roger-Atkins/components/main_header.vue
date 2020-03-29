@@ -8,6 +8,18 @@
       <h3>{{this.parallax_info_2.heading}}</h3>
       <p class='spiel'>- Mando</p>
     </div>
+    <div v-if='this.parallax_info_3' class='overlay_txt'>
+      <h3>{{this.parallax_info_3.heading}}</h3>
+      <p class='spiel'>{{this.parallax_info_3.quote}}</p>
+    </div>
+    <div v-if='this.parallax_info_4' class='overlay_txt'>
+      <h3>{{this.parallax_info_4.heading}}</h3>
+      <p class='spiel'>{{this.parallax_info_4.quote}}</p>
+    </div>
+    <div v-if='this.parallax_info_5' class='overlay_txt'>
+      <h3>{{this.parallax_info_5.heading}}</h3>
+      <p class='spiel'>{{this.parallax_info_5.quote}}</p>
+    </div>
     <div class='svg_container'>
       <svg viewBox='0 0 1920 150'>
         <polygon points='0,0 960,150 1920,0 1920,150 0,150' fill='black' />
@@ -21,7 +33,7 @@
 
 export default {
   name: 'main_header',
-  props: ['parallax_info_1', 'parallax_info_2', 'parallax_info_3'],
+  props: ['parallax_info_1', 'parallax_info_2', 'parallax_info_3', 'parallax_info_4', 'parallax_info_5'],
 
   data() {
     return {
@@ -59,7 +71,7 @@ h3 {
   z-index: 2;
   position: absolute;
   right: 0px;
-  margin-right: 300px;
+  margin-right: 10%;
   top: 30%;
   color: var(--main_gold_color);
 }
