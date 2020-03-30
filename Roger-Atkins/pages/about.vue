@@ -30,7 +30,7 @@
         </p>
       </div>
         <parallax_comp v-bind:parallax_info_4='parallax_info_4'/>
-        <div class='container'><div>
+        <div class='container spacer'><div>
         <p>
           For now my tech stack I like to build with is Vue.js(CLI 3.0) and it's surrounding ecosystem, such as
         <div class='row'>
@@ -62,31 +62,35 @@
           </div>
         </div>
         <p>
-          My next steps are trying a more structured and OO approach to CSS without relying on SCSS. A decoupling of visual and layout design and a more component based
+          My next steps are trying a more structured and OO approach to CSS without relying on SCSS. A decoupling of visual design and layout design and a more component based
           approach to CSS. I recently attended a great talk by <a href='https://www.youtube.com/watch?v=ZWPMzJfJHnc' target='_blank'>Mike Riethmuller on CSS
           Architecture for Modern Web Applications</a> which takes the CSS in JS paradigm to the next level.
-
-          And GraphQL. I have already written a simple backend for GraphQL with MongoDb but I want to expand upon that and plug in a front
-          end ui to replace the Graphiql query interface. So probably building it out in something like Vue, Vue-Apollo.
         </p>
         <p>
-          Those derpy moments, we all have them, we have them all the time. I had two especially great ones building this website. The first was with a parallax where
-          I had forgot I set a CSS colour variable on the overlaying elements body and thus couldnt see through the background-color: black; to the parallax below.
-          going over my javascript for initialising the instance of the parallax, console logging everything. Moving javascript around inside component lifecycle hooks.
+          GraphQL. I have already written a simple <a href='https://github.com/Chorazin/graphql_test_bed' target='_blank'>backend for GraphQL with MongoDb</a> but I want to expand upon that and plug in a front
+          end ui to replace the Graphiql query interface. So probably building it out in something like Vue, Vue-Apollo. Long term I will probably look at something
+          like Flutter, but this is something I will slowly chip away at.
+        </p>
+        <p>
+
         </p>
         <p>
           And perhaps my favourite where I have put a css variable for a specific colour on the top level component so I could access it anywhere. Unfortunately I
           had copy pasted the wrong hashed colour. The joys I had tracking that down before I actually decided to read over the variable declaration with more
           scrutiny. thinking maybe it was something to do with Scoping, or something to do with component mount timers.
         </p>
+        <p>
+          From a work perspective, I am kind of looking for a place to call home for the next 2-3 years in the Hunter area. With Front End development I feel you really need to take time out to invest
+          in your skill set or you are left behind. So every couple of years is a good time to review your skills, what is new in the industry? What is gaining traction?
+          <a href='https://flutter.dev/' target='_blank'>Flutter</a>, <a href='https://vuejs.org/' target='_blank'>Vue.js</a>, <a href='https://emotion.sh/docs/introduction' target='_blank'>Emotion</a>
+          all could be big in the coming years. Always a difficult decision where to put your valuable hours from a learning perspective.
+        </p>
         <br/>
         <hr class='gradient'/>
         <br/>
       </div>
     </div>
-
       <div class='container'>
-
     </div>
       <br/>
       <hr class='gradient'/>
@@ -113,7 +117,7 @@ export default {
       parallax_info_4: {
         url: '/javascript_parallax_3_v001.jpg',
         heading:'TECH STACK',
-        quote: "'-the factor'"
+        quote: 'Dynamic'
       },
       parallax_info_5: {
         url: '/javascript_parallax_4_v001.jpg',
@@ -162,6 +166,7 @@ export default {
 
 .spacer {
   margin-bottom: 100px;
+  margin-top: 100px;
 }
 
 </style>

@@ -12,8 +12,8 @@
       </div>
       <div class='col s4'></div>
     </div>
-    <img class='responsive-img hide-on-small-only' src='~/assets/splash_v003.jpg'>
-    <img class='responsive-img hide-on-med-and-up' src='~/assets/logo_v001.jpg'>
+    <img class='responsive-img hide-on-small-only' src='~/assets/splash_v003.jpg' alt='picture of Roger Atkins'>
+    <img class='responsive-img hide-on-med-and-up' src='~/assets/logo_v001.jpg' alt='small RA logo'>
     <section>
       <div class='container row icon_section center-align'>
         <div class='col m4 s12'><i class="material-icons">donut_small</i></div>
@@ -72,8 +72,8 @@ export default {
 
       parallax_info_3: {
         url: '/parallax_v002.jpg',
-        heading: 'AMAZING',
-        quote: '"Zing!"'
+        heading: null,
+        quote: null
       }
     }
   },

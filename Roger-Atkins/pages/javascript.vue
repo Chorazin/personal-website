@@ -6,6 +6,9 @@
         <div>
         <p>
           <h4 class='underline'>Remember the good ole' days?</h4>
+          <p>
+            Written by: Roger Atkins - 18/3/2020 <br/><br/>
+          </p>
           I still recall when our lead Java developer, a grin on his face, dropped a massive tome on my desk that looked like it belonged to a Wizard.
           'This is some kind of mistake' I thought, 'I want to learn Javascript, not practice the arcane arts'. And thus began my long on and off again
           relationship with javascript. To be fair I kind of had an idea of what I was getting myself into. Long days I sat the next desk over from
@@ -67,16 +70,18 @@ export default {
     javascript_class_desc_003,
     parallax_comp
   },
-  
+
   data() {
     return {
       parallax_info_1: {
         url: '/javascript_parallax_v002.jpg',
-        heading:'JAVASCRIPT'
+        heading:'JAVASCRIPT',
+        quote: 'Null pointers you say?'
       },
       parallax_info_2: {
         url: '/javascript_parallax_2_v001.jpg',
-        heading:'"THIS IS THE WAY"'
+        heading:'"THIS IS THE WAY"',
+        quote: '- "Mando"'
       }
     }
   },

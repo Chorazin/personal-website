@@ -2,11 +2,11 @@
   <div>
     <div v-if='this.parallax_info_1' class='overlay_txt'>
       <h3>{{this.parallax_info_1.heading}}</h3>
-      <p class='spiel'>Null pointers you say?</p>
+      <p class='spiel'>{{this.parallax_info_1.quote}}</p>
     </div>
     <div v-if='this.parallax_info_2' class='overlay_txt'>
       <h3>{{this.parallax_info_2.heading}}</h3>
-      <p class='spiel'>- Mando</p>
+      <p class='spiel'>{{this.parallax_info_2.quote}}</p>
     </div>
     <div v-if='this.parallax_info_3' class='overlay_txt'>
       <h3>{{this.parallax_info_3.heading}}</h3>
