@@ -53,7 +53,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'Roger Atkins Web-Dev-Design'
+          content: 'Web Dev-Design - Roger Atkins'
         }
       ]
     }
@@ -63,7 +63,7 @@ export default {
     return {
       sorted_array: [],
       quotations: [
-        {quote:'"If youre already a front-end developer, well, pretend youre also wearing a pirate hat"', author: 'Ethan Marcotte'},
+        {quote:'"If you\'re already a front-end developer, well, pretend you\'re also wearing a pirate hat"', author: 'Ethan Marcotte'},
         {quote: '"Digital design is like painting, except the paint never dries"', author: 'Neville Brody'},
         {quote: '"Intuitive design is how we give the user new superpowers"', author: 'Jared Spool'},
         {quote: '"Always code as if the person who ends up maintaining your code will be a violent psychopath who knows where you live"', author: 'John Woods'},

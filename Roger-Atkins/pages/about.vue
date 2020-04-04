@@ -68,16 +68,17 @@
         </p>
         <p>
           GraphQL. I have already written a simple <a href='https://github.com/Chorazin/graphql_test_bed' target='_blank'>backend for GraphQL with MongoDb</a> but I want to expand upon that and plug in a front
-          end ui to replace the Graphiql query interface. So probably building it out in something like Vue, Vue-Apollo. Long term I will probably look at something
-          like Flutter, but this is something I will slowly chip away at.
+          end ui to replace the Graphiql query interface. So probably building it out in something like Vue, Vue-Apollo(yes im a bit of a Vue.js fanboi).
         </p>
         <p>
-
+          <a href='https://tailwindcss.com/' target='_blank'>Tailwind.css</a>, this is gaining a bit of traction, and you can see why after using common CSS frameworks like Bulma, Materialize, Vuetify, Bootstrap,
+          Foundation, etc etc. It provides simple building blocks you need to construct bespoke designs without any annoying opinionated styles you have to fight to override. This is big, on this website I had to
+          edit the source code of materialize on specific z-index's. Even changing the default colours in these frameworks is sometimes not as straightforward as you would think.
         </p>
         <p>
-          And perhaps my favourite where I have put a css variable for a specific colour on the top level component so I could access it anywhere. Unfortunately I
-          had copy pasted the wrong hashed colour. The joys I had tracking that down before I actually decided to read over the variable declaration with more
-          scrutiny. thinking maybe it was something to do with Scoping, or something to do with component mount timers.
+          React.js, it is so big. So very very big, it is there in the background, maybe something I will look to learn long term. With my solid JS background and after investing a lot of time in Vue.js
+          I think that will give me a good platform for learning React. I am quite happy to pick up any software and have a bash, and I understand project constraints. If you have three React developers
+          an Angular dev and Vue dev, you go with React.
         </p>
         <p>
           From a work perspective, I am kind of looking for a place to call home for the next 2-3 years in the Hunter area. With Front End development I feel you really need to take time out to invest
