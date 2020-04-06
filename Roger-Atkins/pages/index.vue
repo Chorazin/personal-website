@@ -12,7 +12,7 @@
       </div>
       <div class='col s4'></div>
     </div>
-    <img class='responsive-img hide-on-small-only' src='~/assets/splash_v003.jpg' alt='picture of Roger Atkins'>
+    <img class='responsive-img hide-on-small-only img_zoom' src='~/assets/splash_v003.jpg' alt='picture of Roger Atkins'>
     <img class='responsive-img hide-on-med-and-up' src='~/assets/logo_v001.jpg' alt='small RA logo'>
     <section>
       <div class='container row icon_section center-align'>
@@ -95,7 +95,6 @@ export default {
 }
 </script>
 
-
 <style scoped>
 /*VISUAL STYLES ---------------------*/
 /*note inherited core CSS from default.vue*/
@@ -140,7 +139,6 @@ export default {
   font-size: 20px;
   color: white;
 }
-
 
 
 /*LAYOUT STYLES --------------------*/

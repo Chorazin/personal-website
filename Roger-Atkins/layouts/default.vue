@@ -50,4 +50,20 @@ body {
   position: relative;
   background-color: black;
 }
+
+.date {
+  font-weight: bold;
+}
+
+hr.gradient {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+.underline{
+  border-bottom: 1px solid rgba(234, 160, 0, 1);
+  padding-bottom: 15px;
+  width: 40%;
+}
 </style>

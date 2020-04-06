@@ -8,12 +8,12 @@
       </div>
       <div class='col l4 m12 s12'>
         <p>
-          I want to take a look at the sytax sugar for classes/objects in ES6 and compare it with how you would once upon a time made an object with
+          I want to take a look at the syntax sugar for classes/objects in ES6 and compare it with how you would once upon a time made an object with
           the proto tier.
         </p>
         <p>
           To set up a class in Javascript nowadays you would use something like this(above/left). The code sets up a basic class to
-          create a new vehicle object. This is ES6 sytax sugar in action on top of how javascript actually constructs objects under the hood with
+          create a new vehicle object. This is ES6 syntax sugar in action on top of how javascript actually constructs objects under the hood with
           proto. I do really like the swish concise format.
         </p>
       </div>

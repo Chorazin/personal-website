@@ -7,7 +7,7 @@
           <p>
             <h4 class='underline'>Remember the good ole' days?</h4>
           </p>
-          <p>
+          <p class='date'>
             Written by: Roger Atkins - 18/3/2020 <br/><br/>
           </p>
             I still recall when our lead Java developer, a grin on his face, dropped a massive tome on my desk that looked like it belonged to a Wizard.
@@ -29,7 +29,7 @@
             I recall after a hiatus from Javascript returning to building web apps/pages and using the inspect element functionality in google chrome's developer tools.
             This blew me away. Not only did it highlight the areas with a visual reference of what was margin, what was body etc, for the code I hovered over.
             But I could also scroll through the styles. And it provided information about where those styles were loaded from, and I could toggle them on and off
-            and see their infuence on the element on the page. Insert mind blown with explosions meme here.
+            and see their influence on the element on the page. Insert mind blown with explosions meme here.
           </p>
 
           <p>
@@ -116,6 +116,8 @@ export default {
 
 
 <style>
+
+
 .fade-enter-active,
 .fade-leave-active {
   transition-duration: 0.5s;
@@ -128,15 +130,5 @@ export default {
   opacity: 0
 }
 
-hr.gradient {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
-}
 
-.underline{
-  border-bottom: 1px solid rgba(234, 160, 0, 1);
-  padding-bottom: 15px;
-  width: 40%;
-}
 </style>

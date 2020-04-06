@@ -5,7 +5,7 @@
       <div class='container spacer'>
         <p>
           <h4 class='underline'>The Ramblings of a Mad Man!</h4>
-          <p>
+          <p class='date'>
             Written by: Roger Atkins - 12/3/2020 <br/><br/>
           </p>
           Well about myself I guess, firstly I am a long time Tottenham Hotspur supporter, although I feel sufferer is a better description. And a
@@ -21,7 +21,7 @@
         </p>
         <p>
           From there I have worked mostly in the web world/media fields, wearing many and varied hats. Given I have always worked with smaller agencies, the need for people to
-          be flexible was high. I havn't been just a Front End Developer, I have done some graphic design, some marketing, some traditional media such as film, some
+          be flexible was high. I haven't been just a Front End Developer, I have done some graphic design, some marketing, some traditional media such as film, some
           content creation. Even some print media.
         </p>
         <p>
@@ -153,6 +153,10 @@ export default {
 </script>
 
 <style scoped>
+.date {
+  font-weight: bold;
+}
+
 .fade-enter-active,
 .fade-leave-active {
   transition-duration: 0.5s;

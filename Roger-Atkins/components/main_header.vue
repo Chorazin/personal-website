@@ -9,7 +9,7 @@
       <p class='spiel'>{{this.parallax_info_2.quote}}</p>
     </div>
     <div v-if='this.parallax_info_3' class='overlay_txt'>
-      <h3>{{this.parallax_info_3.heading}}</h3>
+      <h3 v-if='this.parallax_info_3.heading'>{{this.parallax_info_3.heading}}</h3>
       <p class='spiel'>{{this.parallax_info_3.quote}}</p>
     </div>
     <div v-if='this.parallax_info_4' class='overlay_txt'>

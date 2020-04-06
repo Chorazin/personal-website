@@ -22,7 +22,7 @@
         <p>
           The __proto__ you see is merely
           a pointer to the relevant prototype, array prototype, date prototype, etc. This brings me to my next point, when using a constructor
-          you can just create a method inside that constructor, but it attaches the method to each individual vehicle. Wouldnt it be better
+          you can just create a method inside that constructor, but it attaches the method to each individual vehicle. Wouldn't it be better
           to create the method on the vehicle prototype that javascript has ready for us to go?
         </p>
 
