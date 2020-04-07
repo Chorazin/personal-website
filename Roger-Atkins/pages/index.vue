@@ -16,9 +16,9 @@
     <img class='responsive-img hide-on-med-and-up' src='~/assets/logo_v001.jpg' alt='small RA logo'>
     <section>
       <div class='container row icon_section center-align'>
-        <div class='col m4 s12'><i class="material-icons">donut_small</i></div>
-        <div class='col m4 s12'><i class="material-icons">airplay</i></div>
-        <div class='col m4 s12'><i class="material-icons">cloud_circle</i></div>
+        <div class='col m4 s12'><i class="material-icons"><nuxt-link :to='{name: "content_creation"}'>donut_small</nuxt-link></i></div>
+        <div class='col m4 s12'><i class="material-icons"><nuxt-link :to='{name: "build"}'>airplay</nuxt-link></i></div>
+        <div class='col m4 s12'><i class="material-icons"><nuxt-link :to='{name: "personal_projects"}'>cloud_circle</nuxt-link></i></div>
       </div>
     </section>
     <parallax_comp v-bind:parallax_info_3='parallax_info_3'/>

@@ -82,9 +82,9 @@
         </p>
         <p>
           From a work perspective, I am kind of looking for a place to call home for the next 2-3 years in the Hunter area. With Front End development I feel you really need to take time out to invest
-          in your skill set or you are left behind. So every couple of years is a good time to review your skills, what is new in the industry? What is gaining traction?
+          in your skill set periodically or you are left behind. So every couple of years is a good time to review your skills, what is new in the industry? What is gaining traction?
           <a href='https://flutter.dev/' target='_blank'>Flutter</a>, <a href='https://vuejs.org/' target='_blank'>Vue.js</a>, <a href='https://emotion.sh/docs/introduction' target='_blank'>Emotion</a>
-          all could be big in the coming years. Always a difficult decision where to put your valuable hours from a learning perspective.
+          all could be big in the coming years.
         </p>
         <br/>
         <hr class='gradient'/>
@@ -153,9 +153,6 @@ export default {
 </script>
 
 <style scoped>
-.date {
-  font-weight: bold;
-}
 
 .fade-enter-active,
 .fade-leave-active {
