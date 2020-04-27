@@ -24,6 +24,10 @@
       <h3>{{this.parallax_info_6.heading}}</h3>
       <p class='spiel'>{{this.parallax_info_6.quote}}</p>
     </div>
+    <div v-if='this.parallax_info_7' class='overlay_txt'>
+      <h3>{{this.parallax_info_7.heading}}</h3>
+      <p class='spiel'>{{this.parallax_info_7.quote}}</p>
+    </div>
     <div class='svg_container'>
       <svg viewBox='0 0 1920 150'>
         <polygon points='0,0 960,150 1920,0 1920,150 0,150' fill='black' />
@@ -37,7 +41,7 @@
 
 export default {
   name: 'main_header',
-  props: ['parallax_info_1', 'parallax_info_2', 'parallax_info_3', 'parallax_info_4', 'parallax_info_5', 'parallax_info_6'],
+  props: ['parallax_info_1', 'parallax_info_2', 'parallax_info_3', 'parallax_info_4', 'parallax_info_5', 'parallax_info_6', 'parallax_info_7'],
 
   data() {
     return {

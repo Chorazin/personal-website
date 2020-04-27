@@ -7,7 +7,7 @@
           <h4 class='underline'>The Ramblings of a Mad Man!</h4>
           <p class='date'>
             Written by: Roger Atkins - 12/3/2020 <br/><br/>
-          </p>
+        </p>
           Well about myself I guess, firstly I am a long time Tottenham Hotspur supporter, although I feel sufferer is a better description. And a
           bit of a Cricket tragic. I am also a Newcastle Jets fan(go the Jets) and have been a Newcastle local for oh, 20 odd years now, although I have lived
           in Sydney before, in Artarmon and grew up in Port Macquarie.
@@ -117,13 +117,13 @@ export default {
     return {
       parallax_info_4: {
         url: '/javascript_parallax_3_v001.jpg',
-        heading:'TECH STACK',
-        quote: 'Dynamic'
+        heading:'"I SET MY MIND IN MOTION"',
+        quote: '- Piter De Vries'
       },
       parallax_info_5: {
         url: '/javascript_parallax_4_v001.jpg',
-        heading: '"I SET MY MIND IN MOTION"',
-        quote: '- Piter De Vries'
+        heading: 'TECK STACK',
+        quote: '- Dynamic'
       }
     }
   },

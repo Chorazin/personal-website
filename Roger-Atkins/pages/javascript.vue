@@ -16,7 +16,6 @@
             our lead Java developer. Often times he could be heard muttering 'why isn't that working?!' or grumbling something about 'hash tables' when
             dealing with recalcitrant Javascript problems.
           </p>
-
           <p>
             Back then there was no real stack overflow, the browser wars were in full swing, the joys of accessing DOM elements different for each
             browser. And alerts everywhere through your code to track down those incredibly descriptive 'null pointer' errors that the browser would
@@ -24,16 +23,21 @@
             people had to get creative with frames and tables to realise their designs. And good old Dreamweaver's find replace all, what could possibly go wrong?
             Remember var's? And how amazingly strict(not) their scope was, 'Oh that is a block level scope, that var is available anywhere'.
           </p>
-
           <p>
             I recall after a hiatus from Javascript returning to building web apps/pages and using the inspect element functionality in google chrome's developer tools.
             This blew me away. Not only did it highlight the areas with a visual reference of what was margin, what was body etc, for the code I hovered over.
             But I could also scroll through the styles. And it provided information about where those styles were loaded from, and I could toggle them on and off
             and see their influence on the element on the page. Insert mind blown with explosions meme here.
           </p>
-
           <p>
-            Now you have a glimpse of the past let us look at an example of how much modern Javascript rocks. Granted it still has issues, I think it always will.
+            Javascript has seen some evolution over the years, let and const help with closure issues in certain instances. The older for(i=0 i<=x.length i++) has
+            been mostly replaced by the higher order function foreach. filter, map, reduce, sort are some other higher order functions that have been added to the toolset.
+            I recall using the old getElementById back in the day, whereas now you are more likely to use something like querySelector or querySelectorAll to return
+            a nodelist you can perform a forEach on. Spreader functions, template literals, even some paradigm changes. Callback functions due to Javascripts single
+            threaded nature see a lot more use nowadays. Once you have done all the required tasks in this function, then go execute my callback function.
+          </p>
+          <p>
+            Now let us look at an example of how much modern Javascript rocks. Granted it still has issues, I think it always will.
             It was built as a glue language for Netscape. Marc Andreessen, the founder of Netscape, believed that HTML needed a "glue language".
             That was easy to use by Web designers and part-time programmers to assemble components such as images and plugins, where the code could be
             written directly in the Web page markup. Based on Java syntax Brendan Eich wrote the prototype in 10 days, called Mocha internally it went
@@ -77,12 +81,12 @@ export default {
       parallax_info_1: {
         url: '/javascript_parallax_v002.jpg',
         heading:'JAVASCRIPT',
-        quote: 'Null pointers you say?'
+        quote: '- Null pointers you say?'
       },
       parallax_info_2: {
         url: '/javascript_parallax_2_v001.jpg',
         heading:'"THIS IS THE WAY"',
-        quote: '- "Mando"'
+        quote: '- Mando'
       }
     }
   },

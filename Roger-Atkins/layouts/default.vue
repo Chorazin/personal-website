@@ -22,6 +22,7 @@ export default {
 
 
 <style>
+/*Core CSS root files for use cross site */
 :root {
   --main_bg_color: rgba(0, 0, 0, 0.5);
   --main_gold_color: #eaa000;
