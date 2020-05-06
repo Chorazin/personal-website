@@ -5,10 +5,10 @@
       <div class='container'>
         <div>
           <p>
-            <h4 class='underline'>Build it, and they will come.</h4>
+            <h4 class='underline'>Adobe Suite?</h4>
           </p>
           <p class='date'>
-              Written by: Roger Atkins - 3/4/2020 <br/><br/>
+              Written by: Roger Atkins - Dev | Web | Design - 3/4/2020 <br/><br/>
           </p>
           <p>
             Content creation, welcome fellow content creators, this section is for you. This probably is not very relevent to the Javascript folks so if that is more your thing
@@ -36,11 +36,23 @@
         </div>
       </div>
       <parallax_comp v-bind:parallax_info_7='parallax_info_7'/>
-      <div class='container'>
-        Looking forward from a content creation perspective I am looking to do a deep dive into Davinci Resolve. With an eventual goal of moving away from Adobe, this is more
-        for the fact I like to own my software rather than rent it out.
+      <div class='container spacer'>
+        <p>
+          Looking forward from a content creation perspective I am looking to do a deep dive into Davinci Resolve. With an eventual goal of moving away from Adobe, this is more
+          for the fact I find the Adobe pay setup very inflexible. And Figma, I have done a few tutorials and built some simple stuff with it but I would like to spend some
+          time learning it's nuances.
+        </p>
+        <p>
+          For my 3d output and workflow not a lot will change, there is no getting around the fact that 3d is labour intensive, from concept art and illustrations. Through
+          to modeling the mesh, applying surfaces and then setting up and staging the scene. Lights, volumetrics and caustics. Particle effects and atmospherics, sub
+          surface scattering etc etc. And this is just for the scene, without even thinking about rigging and animation for objects within the scene. then onto the Long
+          rendering process, re renders to get lighting right etc.
+        </p>
       </div>
     </article>
+    <br/>
+    <hr class='gradient'/>
+    <br/>
   </section>
 </template>
 
@@ -97,6 +109,10 @@ export default {
 </script>
 
 <style scoped>
+.spacer {
+  margin-top: 100px;
+}
+
 video {
   max-width: 100%;
   width: 100%;

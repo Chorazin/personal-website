@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class='pointer'>
     <div class='wrapping_element'>
       <header_navig />
       <nuxt />
@@ -22,6 +22,7 @@ export default {
 
 
 <style>
+
 /*Core CSS root files for use cross site */
 :root {
   --main_bg_color: rgba(0, 0, 0, 0.5);
@@ -32,6 +33,7 @@ export default {
 body {
   background-color: var(--main_bg_color);
   color: var(--main_grey_text_color);
+  pointer-events: none;
 }
 
 @font-face {
@@ -46,6 +48,7 @@ body {
 
 /*For use with the slide out footer*/
 .wrapping_element {
+  pointer-events: all;
   z-index: 1;
   padding-bottom: 100px;
   position: relative;

@@ -6,7 +6,7 @@
         <p>
           <h4 class='underline'>The Ramblings of a Mad Man!</h4>
           <p class='date'>
-            Written by: Roger Atkins - 12/3/2020 <br/><br/>
+            Written by: Roger Atkins - Dev | Web | Design - 12/3/2020 <br/><br/>
         </p>
           Well about myself I guess, firstly I am a long time Tottenham Hotspur supporter, although I feel sufferer is a better description. And a
           bit of a Cricket tragic. I am also a Newcastle Jets fan(go the Jets) and have been a Newcastle local for oh, 20 odd years now, although I have lived
@@ -26,7 +26,8 @@
         </p>
         <p>
           Although I would definitely cede that my main skills lie within the Front End Dev sphere, the intersection of humans and technology. But feel I can definitely
-          provide some assistance, input and feedback on media, digital design, graphic design, UI/UX, and marketing.
+          provide some assistance, input and feedback on media, digital design, graphic design, UI/UX, and marketing. I feel I am well placed for a junior to mid role
+          having taken a hiatus from Front End Dev and been more involved in the content creation and media/marketing spheres for employment.
         </p>
       </div>
         <parallax_comp v-bind:parallax_info_4='parallax_info_4'/>
@@ -87,7 +88,6 @@
           all could be big in the coming years.
         </p>
         <br/>
-        <hr class='gradient'/>
         <br/>
       </div>
     </div>

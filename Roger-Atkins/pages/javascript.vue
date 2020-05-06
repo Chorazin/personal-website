@@ -8,7 +8,7 @@
             <h4 class='underline'>Remember the good ole' days?</h4>
           </p>
           <p class='date'>
-            Written by: Roger Atkins - 18/3/2020 <br/><br/>
+            Written by: Roger Atkins - Dev | Web | Design - 18/3/2020 <br/><br/>
           </p>
             I still recall when our lead Java developer, a grin on his face, dropped a massive tome on my desk that looked like it belonged to a Wizard.
             'This is some kind of mistake' I thought, 'I want to learn Javascript, not practice the arcane arts'. And thus began my long on and off again
