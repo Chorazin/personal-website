@@ -1,6 +1,6 @@
 <template>
   <section>
-    <parallax_comp v-bind:parallax_info_5='parallax_info_5'/>
+    <parallax_comp v-bind:parallax_info='parallax_info_5'/>
     <article>
       <div class='container spacer'>
         <p>
@@ -27,10 +27,11 @@
         <p>
           Although I would definitely cede that my main skills lie within the Front End Dev sphere, the intersection of humans and technology. But feel I can definitely
           provide some assistance, input and feedback on media, digital design, graphic design, UI/UX, and marketing. I feel I am well placed for a junior to mid role
-          having taken a hiatus from Front End Dev and been more involved in the content creation and media/marketing spheres for employment.
+          having taken a hiatus from Front End Dev and been more involved in the content creation and media/marketing spheres for employment. And am now looking
+          to come back into the fold.
         </p>
       </div>
-        <parallax_comp v-bind:parallax_info_4='parallax_info_4'/>
+        <parallax_comp v-bind:parallax_info='parallax_info_4'/>
         <div class='container spacer'><div>
         <p>
           For now my tech stack I like to build with is Vue.js(CLI 3.0) and it's surrounding ecosystem, such as
@@ -47,7 +48,7 @@
           <div class='col s12 m4'>
             <ul>
               <li><a href='https://nodejs.org/en/' target='_blank'>Node.js</a></li>
-              <li><a href='https://www.mongodb.com/' target='_blank'>MongoDb</a></li>
+              <li><a href='https://www.mongodb.com/' target='_blank'>MongoDB</a></li>
               <li><a href='https://mongoosejs.com/docs/' target='_blank'>Mongoose</a></li>
               <li><a href='http://expressjs.com/' target='_blank'>Express</a></li>
               <li><a href='https://www.adobe.com/au/' target='_blank'>Adobe Suite</a></li>
@@ -82,11 +83,18 @@
           an Angular dev and Vue dev, you go with React.
         </p>
         <p>
+          For CMS's I try not to focus too much on these, there are just so many in the market now. Joomla, Drupal, Wordpress, Composer, Gatsby, Concrete, Magento, Kajona, Mambo, and on and on it goes.
+          Literally hundreds of them. And that is before talking about new trending tech such as headless CMS's like Butter, Contentstack, Contentful, dotCMS, Mura, Zesty.io, Cosmic JS, etc etc.
+          Or ecommerce platforms like BigCommerce, Shopify, 3dcart, WooCommerce, Weebly, Squarespace, volusion, etc etc. I have used some of these in passing over the years, but I more focus on the Core
+          technologies, Javascript, CSS, HTML.
+        </p>
+        <p>
           From a work perspective, I am kind of looking for a place to call home for the next 2-3 years in the Hunter area. With Front End development I feel you really need to take time out to invest
           in your skill set periodically or you are left behind. So every couple of years is a good time to review your skills, what is new in the industry? What is gaining traction?
-          <a href='https://flutter.dev/' target='_blank'>Flutter</a>, <a href='https://vuejs.org/' target='_blank'>Vue.js</a>, <a href='https://emotion.sh/docs/introduction' target='_blank'>Emotion</a>
+          <a href='https://flutter.dev/' target='_blank'>Flutter</a>, <a href='https://vuejs.org/' target='_blank'>Vue.js</a>(version 3.0 coming soon), <a href='https://emotion.sh/docs/introduction' target='_blank'>Emotion</a>
           all could be big in the coming years.
         </p>
+
         <br/>
         <br/>
       </div>

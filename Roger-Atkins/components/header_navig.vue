@@ -15,7 +15,7 @@
     </div>
     <ul class="sidenav" id="mobile-demo">
       <li><nuxt-link :to='{name: "index"}'>Home</nuxt-link></li>
-      <li><nuxt-link :to='{name: "about"}'>About</nuxt-link></li>
+      <li><nuxt-link :to='{name: "about"}' alt='about'>About</nuxt-link></li>
       <li><nuxt-link :to='{name: "javascript"}'>Javascript</nuxt-link></li>
     </ul>
   </header>

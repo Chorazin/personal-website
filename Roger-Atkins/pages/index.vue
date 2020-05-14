@@ -21,13 +21,7 @@
         <div class='col m4 s12'><i class="material-icons"><nuxt-link :to='{name: "personal_projects"}'>cloud_circle</nuxt-link></i></div>
       </div>
     </section>
-    <parallax_comp v-bind:parallax_info_3='parallax_info_3'/>
-
-    <div class='container row icon_section center-align spacer'>
-      <div class='col s4'><i class="material-icons expand">donut_small</i></div>
-      <div class='col s4'><i class="material-icons">airplay</i></div>
-      <div class='col s4'><i class="material-icons">cloud_circle</i></div>
-    </div>
+    <parallax_comp v-bind:parallax_info='parallax_info_3'/>
   </div>
 </template>
 

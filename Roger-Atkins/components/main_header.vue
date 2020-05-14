@@ -1,32 +1,8 @@
 <template>
   <div>
-    <div v-if='this.parallax_info_1' class='overlay_txt'>
-      <h3>{{this.parallax_info_1.heading}}</h3>
-      <p class='spiel'>{{this.parallax_info_1.quote}}</p>
-    </div>
-    <div v-if='this.parallax_info_2' class='overlay_txt'>
-      <h3>{{this.parallax_info_2.heading}}</h3>
-      <p class='spiel'>{{this.parallax_info_2.quote}}</p>
-    </div>
-    <div v-if='this.parallax_info_3' class='overlay_txt'>
-      <h3 v-if='this.parallax_info_3.heading'>{{this.parallax_info_3.heading}}</h3>
-      <p class='spiel'>{{this.parallax_info_3.quote}}</p>
-    </div>
-    <div v-if='this.parallax_info_4' class='overlay_txt'>
-      <h3>{{this.parallax_info_4.heading}}</h3>
-      <p class='spiel'>{{this.parallax_info_4.quote}}</p>
-    </div>
-    <div v-if='this.parallax_info_5' class='overlay_txt'>
-      <h3>{{this.parallax_info_5.heading}}</h3>
-      <p class='spiel'>{{this.parallax_info_5.quote}}</p>
-    </div>
-    <div v-if='this.parallax_info_6' class='overlay_txt'>
-      <h3>{{this.parallax_info_6.heading}}</h3>
-      <p class='spiel'>{{this.parallax_info_6.quote}}</p>
-    </div>
-    <div v-if='this.parallax_info_7' class='overlay_txt'>
-      <h3>{{this.parallax_info_7.heading}}</h3>
-      <p class='spiel'>{{this.parallax_info_7.quote}}</p>
+    <div v-if='this.parallax_info' class='overlay_txt'>
+      <h3 v-if='this.parallax_info.heading'>{{this.parallax_info.heading}}</h3>
+      <p class='spiel'>{{this.parallax_info.quote}}</p>
     </div>
     <div class='svg_container'>
       <svg viewBox='0 0 1920 150'>
@@ -41,7 +17,7 @@
 
 export default {
   name: 'main_header',
-  props: ['parallax_info_1', 'parallax_info_2', 'parallax_info_3', 'parallax_info_4', 'parallax_info_5', 'parallax_info_6', 'parallax_info_7'],
+  props: ['parallax_info'],
 
   data() {
     return {

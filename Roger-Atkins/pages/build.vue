@@ -1,10 +1,24 @@
 <template>
-  <div>
-    HOW I BUILT THIS SITE
-  </div>
+  <section>
+    <parallax_comp v-bind:parallax_info='parallax_info_8'/>
+    <article>
+      <div class='container'>
+
+
+      </div>
+      <parallax_comp v-bind:parallax_info='parallax_info_9'/>
+      <div class='container spacer'>
+
+      </div>
+    </article>
+    <br/>
+    <hr class='gradient'/>
+    <br/>
+  </section>
 </template>
 
 <script>
+import parallax_comp from '../components/parallax_comp.vue'
   export default {
 
     transition: {
@@ -13,7 +27,7 @@
     },
 
     components: {
-
+        parallax_comp
     },
 
     head() {
@@ -31,9 +45,26 @@
 
     data() {
       return {
+        parallax_info_8: {
+          url: '/javascript_parallax_7_v001.jpg',
+          heading: 'SITE BUILD',
+          quote: '- Nuxt'
+        },
+
+        parallax_info_9: {
+          url: '/javascript_parallax_8_v001.jpg',
+          heading: '"Where do these stairs go?"',
+          quote: '- Ray Stantz'
+        }
+      }
+    },
+
+    mounted() {
+      //setup materialize parallex on component mount
+      const elems = document.querySelectorAll('.parallax');
+      const instances = M.Parallax.init(elems);
 
       }
-    }
   }
 </script>
 

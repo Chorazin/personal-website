@@ -5,11 +5,15 @@
         <div class='col l4 m12 s12'>
           <span class='emphasis'>EXPLORE</span><br/><br/>
 
-          <nuxt-link :to='{name: "index"}'>Home</nuxt-link><br/>
-          <nuxt-link :to='{name: "about"}'>About</nuxt-link></br/>
-          <nuxt-link :to='{name: "javascript"}'>Javascript</nuxt-link><br/>
+          <nuxt-link :to='{name: "index"}'>Home ></nuxt-link><br/>
+          <nuxt-link :to='{name: "about"}'>About ></nuxt-link></br/>
+          <nuxt-link :to='{name: "javascript"}'>Javascript ></nuxt-link><br/>
           Content Creation <br/>
+          Site construction <br/>
+          Projects <br/>
+
         </div>
+
         <div class='col l4 m12 s12'>
           <address>
             Roger Atkins<br/>
@@ -18,12 +22,10 @@
           </address>
         </div>
         <div class='col l4 m12 s12'>
-
-
         </div>
       </div>
       <div class='row center'>
-        <div class='col l12 m12 s12 emphasis'>DEV-WEB-DESIGN CRAFTED WITH <i class="material-icons">favorite</i> NEWCASTLE AUSTRALIA</div>
+        <div class='col l12 m12 s12 emphasis'>DEV-WEB-DESIGN NEWCASTLE AUSTRALIA</div>
       </div>
     </div>
   </footer>
@@ -45,7 +47,7 @@ address {
   font-style: normal;
 }
 .footer_spacer_test {
-  margin-bottom: 0px;
+
   height: 300px;
   background-image: url('../assets/gradient_backdrop_v002.png');
   background-repeat: repeat-x;
@@ -54,12 +56,15 @@ address {
   bottom: 0px;
   z-index: -5;
 }
-.material-icons {
-  font-size: 18px;
+.row {
+  margin-bottom: 0px;
 }
 .emphasis {
   font-size: 20px;
   font-weight: bold;
+  border: 0px;
+  border-top: 1px;
+  border-style: solid;
 }
 
 .spacer {

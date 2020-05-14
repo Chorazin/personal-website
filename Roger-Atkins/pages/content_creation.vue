@@ -1,6 +1,6 @@
 <template>
   <section>
-    <parallax_comp v-bind:parallax_info_6='parallax_info_6'/>
+    <parallax_comp v-bind:parallax_info='parallax_info_6'/>
     <article>
       <div class='container'>
         <div>
@@ -11,11 +11,25 @@
               Written by: Roger Atkins - Dev | Web | Design - 3/4/2020 <br/><br/>
           </p>
           <p>
-            Content creation, welcome fellow content creators, this section is for you. This probably is not very relevent to the Javascript folks so if that is more your thing
-            I would redirect you <nuxt-link :to='{name: "javascript"}'>here</nuxt-link>. Content creation has been by far the biggest time sink building this site.
+            Content creation has been by far the biggest time sink building this site.
             The technical aspects are relatively light, no backend other than some SSR handled by Nuxt. No database connections, CRUD operations and authentication, no middleware
             or micro services. But writing all the content is time consuming. And proof reading, changing and editing paragraphs to be more concise, what information is relevent,
             what can be omitted, etc etc. And of course graphical content, animation and sound.
+          </p>
+          <p>
+            Mostly I find content creation and marketing go hand in hand. Content driven marketing has been a pillar in the SEO sphere for years. Click through rates, engagement,
+            website flow, which pages are people dropping off, which are they engaging with? there are a lot of tools out there in the marketing sphere nowadays to help gauge some
+            of these metrics. The big one being Google Analytics, I thought about plugging in GA for this site but it was a bit beyond the scope of a website setup for
+            job applications. But GA is just the tip of the iceberg a deep dive brings you all sorts of tools from on page click metrics to things like Answer the Public to
+            packages like SEMrush for SERPs. For webmasters there are so many tools out there now to help refine your organic search strategy, Screaming Frog, Woorank, BuzzStream,
+            Linkody, Check My Links. Engaging content takes dedication, an eye for detail and some creative flair. I have the utmost respect for dedicated content creators,
+            because it partners with another specialty area of knowledge, SEO.
+          </p>
+          <p>
+            SEO and optimisation for organic results, whew. Id like to start off by saying this is a key problem with modern Javascript frameworks and
+            Google's crawl bots, although they are improving, it is why I chose Nuxt.js to build this site. SSR(Server Side Rendering), having the pages accessible and able to
+            be crawled by Google(and others) adds to SEO rankings, how much exactly? Well as is the case with SEO it is hard to gauge. I am by no means an SEO/marketing expert
+            but I feel I have some solid foundations to build upon.
           </p>
           <p>
             For myself I have been in content creation from a marketing/advertising perspective mostly. Utilising tools such as the ubiquitous <a href='https://www.adobe.com/au/' target='blank'>Adobe Suite</a>.
@@ -35,7 +49,7 @@
           </div>
         </div>
       </div>
-      <parallax_comp v-bind:parallax_info_7='parallax_info_7'/>
+      <parallax_comp v-bind:parallax_info='parallax_info_7'/>
       <div class='container spacer'>
         <p>
           Looking forward from a content creation perspective I am looking to do a deep dive into Davinci Resolve. With an eventual goal of moving away from Adobe, this is more
