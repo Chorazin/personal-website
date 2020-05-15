@@ -14,19 +14,14 @@
     </div>
     <img class='responsive-img hide-on-small-only' src='~/assets/splash_v003.jpg' alt='picture of Roger Atkins'>
     <img class='responsive-img hide-on-med-and-up' src='~/assets/logo_v001.jpg' alt='small RA logo'>
-    <section>
-      <div class='container row icon_section center-align'>
-        <div class='col m4 s12'><i class="material-icons"><nuxt-link :to='{name: "content_creation"}'>donut_small</nuxt-link></i></div>
-        <div class='col m4 s12'><i class="material-icons"><nuxt-link :to='{name: "build"}'>airplay</nuxt-link></i></div>
-        <div class='col m4 s12'><i class="material-icons"><nuxt-link :to='{name: "personal_projects"}'>cloud_circle</nuxt-link></i></div>
-      </div>
-    </section>
+    <middle_links />
     <parallax_comp v-bind:parallax_info='parallax_info_3'/>
   </div>
 </template>
 
 <script>
 import parallax_comp from '../components/parallax_comp.vue'
+import middle_links from '../components/middle_links.vue'
 
 export default {
 
@@ -37,7 +32,8 @@ export default {
   },
 
   components: {
-    parallax_comp
+    parallax_comp,
+    middle_links
   },
 
   head() {
@@ -118,14 +114,6 @@ export default {
 
 .fade-enter, .fade-leave-active {
   opacity: 0
-}
-
-.icon_section {
-  font-family: "roboto";
-}
-
-.material-icons{
-   font-size: 48px;
 }
 
 .home .lobs {

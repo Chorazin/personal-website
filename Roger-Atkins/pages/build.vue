@@ -3,8 +3,18 @@
     <parallax_comp v-bind:parallax_info='parallax_info_8'/>
     <article>
       <div class='container'>
-
-
+        <p>
+          <h4 class='underline'>Hosting?</h4>
+        </p>
+        <p class='date'>
+            Written by: Roger Atkins - Dev | Web | Design - 15/5/2020 <br/><br/>
+        </p>
+        <p>
+          So for this website I decided to try out Nuxt.js, yes a framework for Vue.js which is itself a library, although it can be a framework with some other tools.
+          But bear with me, it is simply another layer of abstraction, on top of several. Much like Node.js is a layer of abstraction built on top of C via the V8 engine.
+          And it does package in some fairly handy and time saving features. Server side rendering, clearly having your pages able to be crawled rather than spinners
+          is a good thing
+        </p>
       </div>
       <parallax_comp v-bind:parallax_info='parallax_info_9'/>
       <div class='container spacer'>
