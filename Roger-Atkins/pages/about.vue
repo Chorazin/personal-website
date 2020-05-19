@@ -135,7 +135,7 @@ export default {
       },
       parallax_info_5: {
         url: '/javascript_parallax_4_v001.jpg',
-        heading: 'TECK STACK',
+        heading: 'TECH STACK',
         quote: '- Dynamic'
       }
     }

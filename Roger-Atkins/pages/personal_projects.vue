@@ -32,7 +32,12 @@
     data() {
       return {
         parallax_info_10: {
-          url: '/javascript_parallax_3_v001.jpg',
+          url: '/javascript_parallax_9_v001.jpg',
+          heading:'PROJECTS',
+          quote: '- build Something'
+        },
+        parallax_info_11: {
+          url: '/javascript_parallax_10_v001.jpg',
           heading:'"WELL, THAT\'S A SWITCH"',
           quote: '- Private Hudson'
         }
