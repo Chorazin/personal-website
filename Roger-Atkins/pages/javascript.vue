@@ -43,6 +43,7 @@
             written directly in the Web page markup. Based on Java syntax Brendan Eich wrote the prototype in 10 days, called Mocha internally it went
             out as livescript.
           </p>
+
         <br/>
         <hr class='gradient'/>
         <br/>
@@ -50,7 +51,10 @@
       <javascript_class_desc_001 />
       <javascript_class_desc_002 />
     </div>
-      <parallax_comp v-bind:parallax_info='parallax_info_2' />
+    <div class='mid_link_spacer'>
+      <middle_links />
+    </div>
+    <parallax_comp v-bind:parallax_info='parallax_info_2' />
       <div class='container'>
       <javascript_class_desc_003 />
     </div>
@@ -67,13 +71,15 @@ import javascript_class_desc_001 from '../components/javascript_class_desc_001.v
 import javascript_class_desc_002 from '../components/javascript_class_desc_002.vue'
 import javascript_class_desc_003 from '../components/javascript_class_desc_003.vue'
 import parallax_comp from '../components/parallax_comp.vue'
+import middle_links from '../components/middle_links.vue'
 
 export default {
   components: {
     javascript_class_desc_001,
     javascript_class_desc_002,
     javascript_class_desc_003,
-    parallax_comp
+    parallax_comp,
+    middle_links
   },
 
   data() {
@@ -119,9 +125,7 @@ export default {
 </script>
 
 
-<style>
-
-
+<style scoped>
 .fade-enter-active,
 .fade-leave-active {
   transition-duration: 0.5s;

@@ -48,6 +48,9 @@
             </video>
           </div>
         </div>
+        <div class='mid_link_spacer'>
+          <middle_links />
+        </div>
       </div>
       <parallax_comp v-bind:parallax_info='parallax_info_7'/>
       <div class='container spacer'>
@@ -72,6 +75,7 @@
 
 <script>
 import parallax_comp from '../components/parallax_comp.vue'
+import middle_links from '../components/middle_links.vue'
 
 export default {
 
@@ -81,7 +85,8 @@ export default {
   },
 
   components: {
-    parallax_comp
+    parallax_comp,
+    middle_links
   },
 
   head() {

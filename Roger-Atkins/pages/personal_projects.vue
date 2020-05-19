@@ -31,7 +31,11 @@
 
     data() {
       return {
-
+        parallax_info_10: {
+          url: '/javascript_parallax_3_v001.jpg',
+          heading:'"WELL, THAT\'S A SWITCH"',
+          quote: '- Private Hudson'
+        }
       }
     }
   }

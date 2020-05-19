@@ -59,6 +59,10 @@ body {
   font-weight: bold;
 }
 
+.mid_link_spacer {
+  margin-bottom: 100px;
+}
+
 hr.gradient {
     border: 0;
     height: 1px;
