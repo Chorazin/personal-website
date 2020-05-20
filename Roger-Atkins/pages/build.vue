@@ -43,7 +43,7 @@
       <parallax_comp v-bind:parallax_info='parallax_info_9'/>
       <div class='container spacer'>
         <p>
-          As for cros browser I do not have a mac device to test on so as for whether the site renders perfectly on a mac I am unsure. Likewise for older browser version and of course
+          As for cross browser I do not have a mac device to test on so as for whether the site renders perfectly on a mac I am unsure. Likewise for older browser version and of course
           anyone that has disbaled Javascript in the browser. Being that it is built with Vue.js library and Nuxt.js framework.
         </p>
         <p>
