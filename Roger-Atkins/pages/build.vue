@@ -43,11 +43,17 @@
       <parallax_comp v-bind:parallax_info='parallax_info_9'/>
       <div class='container spacer'>
         <p>
-          As for cross browser I do not have a mac device to test on so as for whether the site renders perfectly on a mac I am unsure. Likewise for older browser version and of course
-          anyone that has disbaled Javascript in the browser. Being that it is built with Vue.js library and Nuxt.js framework.
+          <h4 class='underline'>Cross browser, cross platform?</h4>
+          For myself I am just sticking with modern browsers, I figure the majority of my target audience(job applications) will be on modern tech. It is not like I have to support
+          redundancy software. I may get around to testing for Mac Safari, but all my main testing has been done in the latest version of Chrome(Version 83.0.4103.61) and Firefox(76.0.1). As for
+          anyone that has disbaled Javascript in the browser, that is a lot harder to cater for given this is built with Vue.js within a Nuxt.js framework.
         </p>
         <p>
-          I will probably add to the site at a later date, a larger area for content creation, and going through the process for something like say 3d modeling. From
+          I will probably add to the site at a later date, I certainly wanted to use photos of Newcastle but realised my library for such was rather lacking. Might dedicate a day
+          to taking some swell shots of my home town.
+        </p>
+        <p>
+          I might also go through the process for something like say 3d modeling. From
           conception and initial illustrations to modeling the wireframe mesh in say Zbrush. Then exporting the model into Lightwave, applying textures, lights and
           setting up a scene to rendering and compiling in Resolve.
         </p>

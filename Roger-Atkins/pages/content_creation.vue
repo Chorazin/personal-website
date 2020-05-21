@@ -55,6 +55,7 @@
       <parallax_comp v-bind:parallax_info='parallax_info_7'/>
       <div class='container spacer'>
         <p>
+            <h4 class='underline'>What next?</h4>
           Looking forward from a content creation perspective I am looking to do a deep dive into Davinci Resolve. With an eventual goal of moving away from Adobe, this is more
           for the fact I find the Adobe pay setup very inflexible. And Figma, I have done a few tutorials and built some simple stuff with it but I would like to spend some
           time learning it's nuances.

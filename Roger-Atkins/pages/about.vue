@@ -37,6 +37,7 @@
       <parallax_comp v-bind:parallax_info='parallax_info_4'/>
       <div class='container spacer'><div>
         <p>
+            <h4 class='underline'>Where to from here?</h4>
           For now my tech stack I like to build with is Vue.js(CLI 3.0) and it's surrounding ecosystem, such as
         <div class='row'>
           <div class='col s12 m4'>
@@ -67,7 +68,7 @@
           </div>
         </div>
         <p>
-          My next steps are trying a more structured and OO approach to CSS without relying on SCSS. A decoupling of visual design and layout design and a more component based
+          A rough road map would look something like trying a more structured and OO approach to CSS. A decoupling of visual design and layout design and a more component based
           approach to CSS. I recently attended a great talk by <a href='https://www.youtube.com/watch?v=ZWPMzJfJHnc' target='_blank'>Mike Riethmuller on CSS
           Architecture for Modern Web Applications</a> which takes the CSS in JS paradigm to the next level.
         </p>
