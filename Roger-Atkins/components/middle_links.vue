@@ -26,4 +26,6 @@ export default {
 .material-icons{
    font-size: 48px;
 }
+
+
 </style>

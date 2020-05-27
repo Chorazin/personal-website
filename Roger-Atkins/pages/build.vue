@@ -14,7 +14,7 @@
           But bear with me, it is simply another layer of abstraction, on top of several. Much like Node.js is a layer of abstraction built on top of C via the V8 engine.
           And Nuxt does package in some fairly handy and time saving features. Server side rendering, clearly having your pages able to be crawled rather than spinners
           is a good thing. The other big advantage is routing, Nuxt handles routing much as it would be in say a PHP application. Create a Vue.js file and drop it in
-          the pages diretory and you are good to go. Nuxt builds out your router file for you, it also has in built functionality to handle dynamic links like user sign
+          the pages directory and you are good to go. Nuxt builds out your router file for you, it also has in built functionality to handle dynamic links like user sign
           up home page, posts etc. Although to add an extra layer of security to your router file will still have to be done manually. Say if you are checking authentication
           before allowing a user to navigate to a certain page.
         </p>
@@ -34,7 +34,7 @@
           based around design components, built out of smaller building blocks.
         </p>
         <p>
-          For hosting I went with Heroku, I dont think my job application traffic will ever push my free Dyno to cap so seemed a good option.
+          For hosting I went with Heroku, I don't think my job application traffic will ever push my free Dyno to cap so seemed a good option.
         </p>
       </div>
       <div class='mid_link_spacer'>

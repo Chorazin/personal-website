@@ -13,7 +13,7 @@
           <p>
             Content creation has been by far the biggest time sink building this site.
             The technical aspects are relatively light, no backend other than some SSR handled by Nuxt. No database connections, CRUD operations and authentication, no middleware
-            or micro services. But writing all the content is time consuming. And proof reading, changing and editing paragraphs to be more concise, what information is relevent,
+            or micro services. But writing all the content is time consuming. And proof reading, changing and editing paragraphs to be more concise, what information is relevant,
             what can be omitted, etc etc. And of course graphical content, animation and sound.
           </p>
           <p>
@@ -55,7 +55,7 @@
       <parallax_comp v-bind:parallax_info='parallax_info_7'/>
       <div class='container spacer'>
         <p>
-            <h4 class='underline'>What next?</h4>
+          <h4 class='underline'>What next?</h4>
           Looking forward from a content creation perspective I am looking to do a deep dive into Davinci Resolve. With an eventual goal of moving away from Adobe, this is more
           for the fact I find the Adobe pay setup very inflexible. And Figma, I have done a few tutorials and built some simple stuff with it but I would like to spend some
           time learning it's nuances.
