@@ -31,7 +31,7 @@
           </p>
           <p>
             Javascript has seen some evolution over the years, let and const help with closure issues in certain instances. The older for(i=0 i<=x.length i++) has
-            been mostly replaced by the higher order function foreach. filter, map, reduce, sort are some other higher order functions that have been added to the toolset.
+            been mostly replaced by the higher order function foreach. Filter, map, reduce, sort are some other higher order functions that have been added to the toolset.
             I recall using the old getElementById back in the day, whereas now you are more likely to use something like querySelector or querySelectorAll to return
             a nodelist you can perform a forEach on. Spreader functions, template literals, even some paradigm changes. Callback functions due to Javascripts single
             threaded nature see a lot more use nowadays. Once you have done all the required tasks in this function, then go execute my callback function.

@@ -31,10 +31,13 @@
           The functionality rolled into Firebase's onSnapShot is impressive, and from a developers perspective brings some real power to the table with minimal code.
         </p>
         <p>
-          This last one makes me a little sad, I wrote an app using Google maps API. And around one month after I completed it they changed what functionality was accessible for free and
+          This last one makes me a little sad, I wrote an <a href='https://geo-auth-82a6d.firebaseapp.com/login' target='_blank'>app</a> using Google maps API. And around one month after I completed it they changed what functionality was accessible for free and
           what was not. So you have to allow the app to know your location and it stores those co-ords and pinpoints your location on the map with a tab. Clicking on the tab takes you to a
           chat page for that user. The co-ords are stored by user so if you shift locations your tab moves with you when you log back in. And is still accessible on Google Maps to click on and
           chat.
+        </p>
+        <p>
+          And of course this Nuxt.js website, although this I cede is more of a design build than my other projects. Which are more development and improving my coding focused.
         </p>
       </div>
       <div class='mid_link_spacer'>
