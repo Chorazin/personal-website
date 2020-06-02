@@ -20,7 +20,7 @@
               <i class="material-icons"><nuxt-link :to='{name: "build"}'>airplay</nuxt-link></i>
             </div>
             <div class="flip-card-back">
-              <nuxt-link :to='{name: "content_creation"}'><h4>BUILD</h4></nuxt-link>
+              <nuxt-link :to='{name: "build"}'><h4>BUILD</h4></nuxt-link>
             </div>
           </div>
         </div>
@@ -32,7 +32,7 @@
               <i class="material-icons"><nuxt-link :to='{name: "personal_projects"}'>cloud_circle</nuxt-link></i>
             </div>
             <div class="flip-card-back">
-              <nuxt-link :to='{name: "content_creation"}'><h4>PROJECTS</h4></nuxt-link>
+              <nuxt-link :to='{name: "personal_projects"}'><h4>PROJECTS</h4></nuxt-link>
             </div>
           </div>
         </div>
