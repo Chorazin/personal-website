@@ -48,9 +48,9 @@
             </video>
           </div>
         </div>
-        <div class='mid_link_spacer'>
-          <middle_links />
-        </div>
+      </div>
+      <div class='mid_link_spacer'>
+        <middle_links />
       </div>
       <parallax_comp v-bind:parallax_info='parallax_info_7'/>
       <div class='container spacer'>

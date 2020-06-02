@@ -32,12 +32,13 @@
         </p>
         <p>
           This last one makes me a little sad, I wrote an <a href='https://geo-auth-82a6d.firebaseapp.com/login' target='_blank'>app</a> using Google maps API. And around one month after I completed it they changed what functionality was accessible for free and
-          what was not. So you have to allow the app to know your location and it stores those co-ords and pinpoints your location on the map with a tab. Clicking on the tab takes you to a
+          what was not. But the basic gist of the app was to know your location and store those co-ords to pinpoint your location on a map with a tab marker. Clicking on the tab takes you to a
           chat page for that user. The co-ords are stored by user so if you shift locations your tab moves with you when you log back in. And is still accessible on Google Maps to click on and
           chat.
         </p>
         <p>
-          And of course this Nuxt.js website, although this I cede is more of a design build than my other projects. Which are more development and improving my coding focused.
+          And of course this Nuxt.js website, although this I cede is more of an exercise in design than my other projects. No middleware, authenticaion, database, microservices, etc to worry
+          about, just setting up Nuxt.js, building with Vue.js and hosting on Heroku.
         </p>
       </div>
       <div class='mid_link_spacer'>
@@ -46,19 +47,9 @@
       <parallax_comp v-bind:parallax_info='parallax_info_11'/>
       <div class='container spacer'>
         <p>
-          <h4 class='underline'>Cross browser, cross platform?</h4>
-          For myself I am just sticking with modern browsers, I figure the majority of my target audience(job applications) will be on modern tech. It is not like I have to support
-          redundancy software. I may get around to testing for Mac Safari, but all my main testing has been done in the latest version of Chrome(Version 83.0.4103.61) and Firefox(76.0.1). As for
-          anyone that has disbaled Javascript in the browser, that is a lot harder to cater for given this is built with Vue.js within a Nuxt.js framework.
-        </p>
-        <p>
-          I will probably add to the site at a later date, I certainly wanted to use photos of Newcastle but realised my library for such was rather lacking. Might dedicate a day
-          to taking some swell shots of my home town.
-        </p>
-        <p>
-          I might also go through the process for something like say 3d modeling. From
-          conception and initial illustrations to modeling the wireframe mesh in say Zbrush. Then exporting the model into Lightwave, applying textures, lights and
-          setting up a scene to rendering and compiling in Resolve.
+          <h4 class='underline'>Future projects?</h4>
+          My next project will be a Svelte and TailwindCSS project, not sure what I will build yet but that is 100% my tech stack unless I score a job somewhere that requires me to learn
+          specific software for the role.
         </p>
       </div>
     </article>
@@ -102,7 +93,7 @@ import middle_links from '../components/middle_links.vue'
         parallax_info_10: {
           url: '/javascript_parallax_9_v001.jpg',
           heading:'PROJECTS',
-          quote: '- Go build something'
+          quote: '- Go forth and build'
         },
         parallax_info_11: {
           url: '/javascript_parallax_10_v001.jpg',
