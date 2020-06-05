@@ -2,40 +2,13 @@
   <section>
     <div class='container row icon_section center-align'>
       <div class='col m4 s12'>
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <i class="material-icons"><nuxt-link :to='{name: "content_creation"}'>donut_small</nuxt-link></i>
-            </div>
-            <div class="flip-card-back">
-              <nuxt-link :to='{name: "content_creation"}'><h4>CONTENT CREATION</h4></nuxt-link>
-            </div>
-          </div>
-        </div>
+        <link_flip v-bind:link_info = 'link_info_one' />
       </div>
       <div class='col m4 s12'>
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <i class="material-icons"><nuxt-link :to='{name: "build"}'>airplay</nuxt-link></i>
-            </div>
-            <div class="flip-card-back">
-              <nuxt-link :to='{name: "build"}'><h4>BUILD</h4></nuxt-link>
-            </div>
-          </div>
-        </div>
+        <link_flip v-bind:link_info = 'link_info_two' />
       </div>
       <div class='col m4 s12'>
-        <div class="flip-card">
-          <div class="flip-card-inner">
-            <div class="flip-card-front">
-              <i class="material-icons"><nuxt-link :to='{name: "personal_projects"}'>cloud_circle</nuxt-link></i>
-            </div>
-            <div class="flip-card-back">
-              <nuxt-link :to='{name: "personal_projects"}'><h4>PROJECTS</h4></nuxt-link>
-            </div>
-          </div>
-        </div>
+        <link_flip v-bind:link_info = 'link_info_three' />
       </div>
     </div>
   </section>
@@ -43,15 +16,42 @@
 
 
 <script>
-export default {
-  name: 'middle_links'
+import link_flip from '../components/link_flip.vue'
 
+
+
+export default {
+  name: 'middle_links',
+
+  components: {
+    link_flip
+  },
+
+  data(){
+    return {
+      link_info_one: {
+        link: 'content_creation',
+        header: 'CONTENT CREATION',
+        icon: 'donut_small'
+      },
+      link_info_two: {
+        link: 'build',
+        header: 'BUILD',
+        icon: 'airplay'
+      },
+      link_info_three: {
+        link: 'personal_projects',
+        header: 'PROJECTS',
+        icon: 'cloud_circle'
+      }
+    }
+  }
 }
 </script>
 
 
 
-<style scoped>
+<style>
 .icon_section {
   font-family: "roboto";
 }

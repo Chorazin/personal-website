@@ -18,7 +18,7 @@ export default {
   },
 
   name: 'parallax_comp',
-  props: ['parallax_info'],
+  props: ['parallax_info']
 
   }
 </script>

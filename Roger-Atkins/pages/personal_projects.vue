@@ -10,12 +10,12 @@
             Written by: Roger Atkins - Dev | Web | Design - 20/5/2020 <br/><br/>
         </p>
         <p>
-          I have been working on a bunch of personal projects and one proof of concept for a business idea. Guess you could call it stage one, Alpha, something along those lines. So I will start
+          I have been working on a bunch of personal projects and part of a team for a proof of concept for a business idea. Guess you could call it stage one, Alpha, something along those lines. So I will start
           there with <a href='https://sample-self-insure.firebaseapp.com/' target='_blank'>Self Insure</a>. My idea here was to just get a simple prototype up and running with CRUD operations and
           authentication utilising Vue.js(cli 3.0) and Firebase. We are at a point where it needs to be more fleshed out from a business model perspective.
           What data from the user are we collecting? Custom flags and levels of administration? Use case scenarios? Have we got a backend engineer on board yet?
           I can do some backend but definitely am much more visual/front end oriented. For a full application and fleshing out the architecture I would want a backend engineer on board. Moving database actions to cloud functions
-          and aggregating them all as a service, etc etc<br/><br/> This is more an ongoing thing as
+          and aggregating them all as services, etc etc<br/><br/> This is more an ongoing thing as
           we get in Slack and thrash it out and bound by work and time zone constraints. People are in Bangkok, London, Sydney, me here in Newcastle.
         </p>
         <p>
@@ -49,7 +49,7 @@
         <p>
           <h4 class='underline'>Future projects?</h4>
           My next project will be a Svelte and TailwindCSS project, not sure what I will build yet but that is 100% my tech stack unless I score a job somewhere that requires me to learn
-          specific software for the role.
+          specific software for the role. A deep dive into Davince Resolve, and to spend some more time in Figma.
         </p>
       </div>
     </article>
