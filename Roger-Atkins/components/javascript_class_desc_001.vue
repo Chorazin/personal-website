@@ -3,7 +3,7 @@
     <div class='row'>
       <div class='col l8 m12 s12'>
         <p>
-          <img src='../assets/code_ex_v001.jpg' class='responsive-img'>
+          <img src='../assets/code_ex_v001.jpg' class='responsive-img' alt='example code'>
         </p>
       </div>
       <div class='col l4 m12 s12'>

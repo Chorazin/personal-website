@@ -12,8 +12,8 @@
       </div>
       <div class='col s4'></div>
     </div>
-    <img class='responsive-img hide-on-small-only' src='~/assets/splash_v003.jpg' alt='picture of Roger Atkins'>
-    <img class='responsive-img hide-on-med-and-up' src='~/assets/logo_v001.jpg' alt='small RA logo'>
+    <img class='responsive-img hide-on-small-only' src='~/assets/splash_v003.jpg' alt='picture of Roger Atkins, website author'>
+    <img class='responsive-img hide-on-med-and-up' src='~/assets/logo_v001.jpg' alt='small web development RA logo'>
     <middle_links />
     <parallax_comp v-bind:parallax_info='parallax_info_3'/>
   </div>

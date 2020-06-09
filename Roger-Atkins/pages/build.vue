@@ -88,7 +88,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'The tech stack used to build the website'
+          content: 'The tech stack used to build this website'
         }
       ]
     }
