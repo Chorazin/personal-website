@@ -2,7 +2,7 @@
   <section>
     <parallax_comp v-bind:parallax_info='parallax_info_5'/>
     <article>
-      <div class='container spacer'>
+      <div class='container'>
         <p>
           <h4 class='underline'>The Ramblings of a Mad Man!</h4>
           <p class='date'>
@@ -31,11 +31,11 @@
           to come back into the fold.
         </p>
       </div>
-      <div class='mid_link_spacer'>
+      <div class='spacer_vertical_100'>
         <middle_links />
       </div>
       <parallax_comp v-bind:parallax_info='parallax_info_4'/>
-      <div class='container spacer'><div>
+      <div class='container'><div>
         <p>
             <h4 class='underline'>Where to from here?</h4>
           For now my tech stack I like to build with is Vue.js(CLI 3.0) and it's surrounding ecosystem, such as
@@ -167,7 +167,7 @@ export default {
 </script>
 
 <style scoped>
-
+/*VISUAL STYLES ---------------------*/
 .fade-enter-active,
 .fade-leave-active {
   transition-duration: 0.5s;
@@ -178,11 +178,6 @@ export default {
 .fade-enter,
 .fade-leave-active {
   opacity: 0
-}
-
-.spacer {
-  margin-bottom: 100px;
-  margin-top: 100px;
 }
 
 </style>

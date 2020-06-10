@@ -1,11 +1,10 @@
 <template>
   <footer>
     <div class='footer_spacer_test center'>
-      <div class='row spacer'>
+      <div class='row'>
         <div class='col l4 m12 s12'>
           <span class='emphasis'>EXPLORE</span><br/><br/>
-
-          <nuxt-link :to='{name: "index"}'>Home ></nuxt-link><br/>
+          <nuxt-link :to='{name: "index"}'>Home <i class="material-icons small">keyboard_arrow_right</i></nuxt-link><br/>
           <nuxt-link :to='{name: "about"}'>About ></nuxt-link></br/>
           <nuxt-link :to='{name: "javascript"}'>Javascript ></nuxt-link><br/>
           Content Creation <br/>
@@ -47,7 +46,6 @@ address {
   font-style: normal;
 }
 .footer_spacer_test {
-
   height: 300px;
   background-image: url('../assets/gradient_backdrop_v002.png');
   background-repeat: repeat-x;
@@ -55,6 +53,7 @@ address {
   position: sticky;
   bottom: 0px;
   z-index: -5;
+  padding-top: 30px;
 }
 .row {
   margin-bottom: 0px;
@@ -66,8 +65,8 @@ address {
   border-top: 1px;
   border-style: solid;
 }
-
-.spacer {
-  padding-top: 50px;
+.small {
+  position: absolute;
+  margin-top: -4px;
 }
 </style>

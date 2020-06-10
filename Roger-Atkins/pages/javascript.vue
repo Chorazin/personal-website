@@ -51,7 +51,7 @@
       <javascript_class_desc_001 />
       <javascript_class_desc_002 />
     </div>
-    <div class='mid_link_spacer'>
+    <div class='spacer_vertical_100'>
       <middle_links />
     </div>
     <parallax_comp v-bind:parallax_info='parallax_info_2' />
@@ -137,6 +137,4 @@ export default {
 .fade-leave-active {
   opacity: 0
 }
-
-
 </style>

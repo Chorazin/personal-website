@@ -54,6 +54,7 @@ export default {
 <style>
 .icon_section {
   font-family: "roboto";
+  height: 80px;
 }
 
 .material-icons{

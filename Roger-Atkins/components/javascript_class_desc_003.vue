@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class='row'>
+    <div class='row top_margin_100'>
       <div class='col l8 m12 s12'>
         <p>
           <img src='../assets/code_ex_003_v001.jpg' class='responsive-img' alt='example code'>
@@ -38,7 +38,5 @@ name: 'javascript_class_desc_003'
 </script>
 
 <style scoped>
-.row {
-  margin-top: 100px;
-}
+
 </style>

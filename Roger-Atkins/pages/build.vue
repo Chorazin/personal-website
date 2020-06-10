@@ -2,7 +2,7 @@
   <section>
     <parallax_comp v-bind:parallax_info='parallax_info_8'/>
     <article>
-      <div class='container spacer'>
+      <div class='container'>
         <p>
           <h4 class='underline'>Hosting?</h4>
         </p>
@@ -37,11 +37,11 @@
           For hosting I went with Heroku, I don't think my job application traffic will ever push my free Dyno to cap so seemed a good option.
         </p>
       </div>
-      <div class='mid_link_spacer'>
+      <div class='spacer_vertical_100'>
         <middle_links />
       </div>
       <parallax_comp v-bind:parallax_info='parallax_info_9'/>
-      <div class='container spacer'>
+      <div class='container'>
         <p>
           <h4 class='underline'>Cross browser, cross platform?</h4>
           For myself I am just sticking with modern browsers, I figure the majority of my target audience(job applications) will be on modern tech. It is not like I have to support
@@ -120,10 +120,6 @@ export default {
 </script>
 
 <style scoped>
-.spacer {
-  margin-bottom: 100px;
-  margin-top: 100px;
-}
 
 .fade-enter-active,
 .fade-leave-active {

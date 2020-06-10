@@ -49,11 +49,11 @@
           </div>
         </div>
       </div>
-      <div class='mid_link_spacer'>
+      <div class='spacer_vertical_100'>
         <middle_links />
       </div>
       <parallax_comp v-bind:parallax_info='parallax_info_7'/>
-      <div class='container spacer'>
+      <div class='container'>
         <p>
           <h4 class='underline'>What next?</h4>
           Looking forward from a content creation perspective I am looking to do a deep dive into Davinci Resolve. With an eventual goal of moving away from Adobe, this is more

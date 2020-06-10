@@ -2,7 +2,7 @@
   <section>
     <parallax_comp v-bind:parallax_info='parallax_info_10'/>
     <article>
-      <div class='container spacer'>
+      <div class='container'>
         <p>
           <h4 class='underline'>Projects?</h4>
         </p>
@@ -63,11 +63,11 @@
           </li>
         </ul>
       </div>
-      <div class='mid_link_spacer'>
+      <div class='spacer_vertical_100'>
         <middle_links />
       </div>
       <parallax_comp v-bind:parallax_info='parallax_info_11'/>
-      <div class='container spacer'>
+      <div class='container'>
         <p>
           <h4 class='underline'>Future projects?</h4>
           My next project will be a Svelte and TailwindCSS project, not sure what I will build yet but that is 100% my tech stack unless I score a job somewhere that requires me to learn
@@ -139,10 +139,6 @@ ul:not(.browser-default)>li {
   list-style-type: circle;
 }
 
-.spacer {
-  margin-bottom: 100px;
-  margin-top: 100px;
-}
 
 .fade-enter-active,
 .fade-leave-active {

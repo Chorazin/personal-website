@@ -129,8 +129,8 @@ export default {
 }
 
 .home section {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .home .quotes {

@@ -1,6 +1,6 @@
 <template>
   <div class='pointer'>
-    <div class='wrapping_element'>
+    <div class='wrapping_element padding_bottom_100'>
       <header_navig />
       <nuxt />
     </div>
@@ -22,10 +22,10 @@ export default {
 
 
 <style>
-
+/*VISUAL STYLES ---------------------*/
 /*Core CSS root files for use cross site */
 :root {
-  --main_bg_color: rgba(0, 0, 0, 0.5);
+  --main_bg_color: rgba(0, 0, 0, 1);
   --main_gold_color: #eaa000;
   --main_grey_text_color: #9e9e9e;
 }
@@ -50,17 +50,12 @@ body {
 .wrapping_element {
   pointer-events: all;
   z-index: 1;
-  padding-bottom: 100px;
   position: relative;
   background-color: black;
 }
 
 .date {
   font-weight: bold;
-}
-
-.mid_link_spacer {
-  margin-bottom: 100px;
 }
 
 hr.gradient {
@@ -73,5 +68,18 @@ hr.gradient {
   border-bottom: 1px solid rgba(234, 160, 0, 1);
   padding-bottom: 15px;
   width: 40%;
+}
+
+
+/*LAYOUT STYLES --------------------*/
+.spacer_vertical_100 {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.top_margin_100 {
+  margin-top: 100px;
+}
+.padding_bottom_100 {
+  padding-bottom: 100px;
 }
 </style>
