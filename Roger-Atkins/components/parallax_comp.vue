@@ -24,4 +24,9 @@ export default {
 </script>
 
 <style>
+@media only screen and (max-width: 1200px){
+  .parallax-container {
+    height: 300px;
+  }
+}
 </style>

@@ -1,13 +1,13 @@
 <template>
   <section>
     <div class='container row icon_section center-align'>
-      <div class='col m4 s12'>
+      <div class='col m4 s4'>
         <link_flip v-bind:link_info = 'link_info_one' />
       </div>
-      <div class='col m4 s12'>
+      <div class='col m4 s4'>
         <link_flip v-bind:link_info = 'link_info_two' />
       </div>
-      <div class='col m4 s12'>
+      <div class='col m4 s4'>
         <link_flip v-bind:link_info = 'link_info_three' />
       </div>
     </div>

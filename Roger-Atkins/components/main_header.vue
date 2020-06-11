@@ -83,7 +83,8 @@ h3 {
 
 @media only screen and (max-width: 1200px){
   .overlay_txt {
-      margin-right: 80px;
+    margin: 30px;
+    top: 0px;
   }
 }
 </style>
