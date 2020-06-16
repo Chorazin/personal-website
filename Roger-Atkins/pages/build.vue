@@ -11,7 +11,7 @@
         </p>
         <p>
           So for this website I decided to try out Nuxt.js, a framework for Vue.js, yes I know, a framework for a library.
-          But bear with me, it is simply another layer of abstraction, on top of several. Much like Node.js is a layer of abstraction built on top of C via the V8 engine.
+          But bear with me, it is simply another layer of abstraction, on top of several. Much like Node.js is a layer of abstraction built on top of C++ via the V8 engine.
           And Nuxt does package in some fairly handy and time saving features. Server side rendering, clearly having your pages able to be crawled rather than spinners
           is a good thing. The other big advantage is routing, Nuxt handles routing much as it would be in say a PHP application. Create a Vue.js file and drop it in
           the pages directory and you are good to go. Nuxt builds out your router file for you, it also has in built functionality to handle dynamic links like user sign
