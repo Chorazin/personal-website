@@ -70,7 +70,8 @@
       <div class='container'>
         <p>
           <h4 class='underline'>Future projects?</h4>
-          My next project will be a Svelte and TailwindCSS project, not sure what I will build yet but that is 100% my tech stack unless I score a job somewhere that requires me to learn
+          My next project will be a Svelte and TailwindCSS project on the front end, with Node.js on the backend.
+          Undecided on what I will build yet but that is 100% my tech stack unless I score a job somewhere that requires me to learn
           specific software for the role. From a content creation, design perspective a deep dive into Davince Resolve, and to spend some more time in Figma are my plans.
         </p>
       </div>

@@ -12,18 +12,21 @@
           <nuxt-link :to='{name: "personal_projects"}'>Projects <i class="material-icons small">keyboard_arrow_right</i></nuxt-link><br/>
         </div>
         <div class='col l4 m12 s12'>
+          <span class='emphasis'>CONTACT</span><br/><br/>
           <address>
             Roger Atkins<br/>
             PHONE: 0429232307<br/>
-            EMAIL: <a href="mailto:chorazin@gmail.com">chorazin@gmail.com</a>
+            EMAIL: <a href="mailto:chorazin@gmail.com">chorazin@gmail.com</a><br/>
+            LOCATION: Georgetown 2298, Newcastle, Australia
           </address>
         </div>
         <div class='col l4 m12 s12'>
-          stuff over here
+          <span class='emphasis'>FOR THE BOTS</span><br/><br/>
+          <a href='sitemap.xml'>sitemap</a>
         </div>
       </div>
       <div class='row center'>
-        <div class='col l12 m12 s12 emphasis'>DEV-WEB-DESIGN NEWCASTLE AUSTRALIA</div>
+        <div class='col l12 m12 s12 footer_spiel'>DEV-WEB-DESIGN NEWCASTLE AUSTRALIA</div>
       </div>
     </div>
   </footer>
@@ -63,6 +66,14 @@ address {
   border: 0px;
   border-top: 1px;
   border-style: solid;
+}
+.footer_spiel {
+  padding-top: 5px;
+  font-size: 10px;
+  border: 0px;
+  border-top: 1px;
+  border-style: solid;
+  margin-top: 30px;
 }
 .small {
   position: absolute;

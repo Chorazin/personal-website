@@ -17,6 +17,7 @@
       <li><nuxt-link :to='{name: "index"}'>Home</nuxt-link></li>
       <li><nuxt-link :to='{name: "about"}' alt='about'>About</nuxt-link></li>
       <li><nuxt-link :to='{name: "javascript"}'>Javascript</nuxt-link></li>
+      <li><a href='javascript:;'>Close</a></li>
     </ul>
   </header>
 </template>
@@ -51,8 +52,8 @@ nav ul a:hover {
 }
 
 .header a {
-  width: 8rem;
-
+  width: 100%;
+  margin-right: 100px;
 }
 
 .icon_grey {
