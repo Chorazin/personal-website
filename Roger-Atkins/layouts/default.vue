@@ -38,12 +38,12 @@ body {
 
 @font-face {
   font-family: lobster;
-  src: url('~static/fonts/lobster 1.4.otf');
+  src: url('/fonts/lobster 1.4.otf');
 }
 
 @font-face {
   font-family: roboto;
-  src: url('~static/fonts/Roboto-Regular.ttf');
+  src: url('/fonts/Roboto-Regular.ttf');
 }
 
 /*For use with the slide out footer*/
