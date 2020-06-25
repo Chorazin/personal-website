@@ -2,8 +2,7 @@
   <header class='header grey-text lighten-4'>
     <div class='navbar-fixed'>
       <nav>
-        <div class='nav-wrapper'>
-
+        <div>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li class='center'><nuxt-link to='/'><i class="material-icons icon_grey">home</i></nuxt-link></li>
@@ -50,7 +49,6 @@ nav {
 nav ul a:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
-
 .header a {
   width: 100%;
   margin-right: 100px;

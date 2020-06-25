@@ -28,7 +28,6 @@ export default {
   ** Global CSS
   */
   css: [
-    '@/assets/css/materialize/css/materialize.min.css',
     '@/assets/css/materialize-css/sass/materialize.scss'
   ],
 

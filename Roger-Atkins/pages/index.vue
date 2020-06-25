@@ -4,7 +4,7 @@
       <div class='col s4'></div>
       <div class='col s4'>
         <transition name='slide_one' appear>
-          <div class='lobs width_400'>
+          <div class='lobs width_400' v-if='show'>
             {{sorted_array.quote}}
             <div class='center-align'>- {{sorted_array.author}}</div>
           </div>
@@ -15,7 +15,7 @@
     <img class='responsive-img hide-on-small-only' src='~/assets/splash_v003.jpg' alt='picture of Roger Atkins, website author'>
     <img class='responsive-img hide-on-med-and-up' src='~/assets/logo_v001.jpg' alt='small web development RA logo'>
     <middle_links />
-    <parallax_comp v-bind:parallax_info='parallax_info_3'/>
+    <parallax_comp v-bind:parallax_info='parallax_info_3' class='hide-on-small-only'/>
   </div>
 </template>
 
@@ -57,8 +57,13 @@ export default {
         {quote: '"Digital design is like painting, except the paint never dries"', author: 'Neville Brody'},
         {quote: '"Intuitive design is how we give the user new superpowers"', author: 'Jared Spool'},
         {quote: '"Always code as if the person who ends up maintaining your code will be a violent psychopath who knows where you live"', author: 'John Woods'},
-        {quote: '"Give a man a program, frustrate him for a day. Teach a man to program, frustrate him for a lifetime."', author: 'Muhammad Waseem'}
+        {quote: '"Give a man a program, frustrate him for a day. Teach a man to program, frustrate him for a lifetime."', author: 'Muhammad Waseem'},
+        {quote: '"I quickly came to realise code is a superpower"', author: 'Karlie Kloss'},
+        {quote: '"One man\'s crappy software is another man\'s full time job"', author: 'Jessica Gaston'},
+        {quote: '"If debugging is the process of removing software bugs, then programming must be the process of putting them in"', author: 'Edsger Dijkstra'}
       ],
+
+      show: false,
 
       parallax_info_3: {
         url: '/parallax_v002.jpg',
@@ -81,6 +86,8 @@ export default {
     const elems = document.querySelectorAll('.parallax');
     const instances = M.Parallax.init(elems);
 
+    //setup for text animation on mount, this is not default with vue animations
+    this.show = true;
   }
 }
 </script>

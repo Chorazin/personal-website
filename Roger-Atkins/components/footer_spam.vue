@@ -2,7 +2,7 @@
   <footer>
     <div class='footer_spacer_test center'>
       <div class='row'>
-        <div class='col l4 m12 s12'>
+        <div class='col l4 m12 s12 mobile_spacer'>
           <span class='emphasis'>EXPLORE</span><br/><br/>
           <nuxt-link :to='{name: "index"}'>Home <i class="material-icons small">keyboard_arrow_right</i></nuxt-link><br/>
           <nuxt-link :to='{name: "about"}'>About <i class="material-icons small">keyboard_arrow_right</i></nuxt-link></br/>
@@ -11,7 +11,7 @@
           <nuxt-link :to='{name: "build"}'>Site Build <i class="material-icons small">keyboard_arrow_right</i></nuxt-link><br/>
           <nuxt-link :to='{name: "personal_projects"}'>Projects <i class="material-icons small">keyboard_arrow_right</i></nuxt-link><br/>
         </div>
-        <div class='col l4 m12 s12'>
+        <div class='col l4 m12 s12 mobile_spacer'>
           <span class='emphasis'>CONTACT</span><br/><br/>
           <address>
             Roger Atkins<br/>
@@ -78,5 +78,11 @@ address {
 .small {
   position: absolute;
   margin-top: -4px;
+}
+
+@media only screen and (max-width: 700px) {
+  .mobile_spacer {
+    margin-bottom: 100px;
+  }
 }
 </style>
