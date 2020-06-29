@@ -3,7 +3,7 @@
     <div class="parallax-container">
       <div class="parallax">
         <img v-if="this.parallax_info" v-bind:src="this.parallax_info.url" class='responsive-img hide-on-small-only'>
-        <!--<img :src='this.image_process' class='responsive-img hide-on-small-only'>-->
+
         <main_header v-bind:parallax_info='parallax_info' />
       </div>
     </div>
@@ -19,14 +19,8 @@ export default {
   },
 
   name: 'parallax_comp',
-  props: ['parallax_info'],
- /*
-  computed: {
-    image_process () {
-    let images = require.context('../assets/', false)
-    return images(`${this.parallax_info.url}`)
-  }
-} */
+  props: ['parallax_info']
+  
 }
 </script>
 

@@ -21,7 +21,7 @@
             </p>
             <p>
               This is more an ongoing thing as
-              we get in Slack and thrash it out, we are bound by work and time zone constraints. People are in Bangkok, London, Sydney, me here in Newcastle, and of course work commitments.
+              we get in Slack and thrash it out, we are bound by work commitments and time zone constraints. People are in Bangkok, London, Sydney, me here in Newcastle.
             </p>
           </li>
 

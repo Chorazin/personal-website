@@ -1,7 +1,7 @@
 <template>
   <footer>
-    <div class='footer_spacer_test center'>
-      <div class='row'>
+    <div class='footer_spacer_test center padding_thirty'>
+      <div class='row_zero_margin row'>
         <div class='col l4 m12 s12 mobile_spacer'>
           <span class='emphasis'>EXPLORE</span><br/><br/>
           <nuxt-link :to='{name: "index"}'>Home <i class="material-icons small">keyboard_arrow_right</i></nuxt-link><br/>
@@ -25,8 +25,8 @@
           <a href='sitemap.xml'>sitemap</a>
         </div>
       </div>
-      <div class='row center'>
-        <div class='col l12 m12 s12 footer_spiel'>DEV-WEB-DESIGN NEWCASTLE AUSTRALIA</div>
+      <div class='row_zero_margin row center'>
+        <div class='col l12 m12 s12 footer_spiel margin_top_thirty'>DEV-WEB-DESIGN NEWCASTLE AUSTRALIA</div>
       </div>
     </div>
   </footer>
@@ -40,6 +40,8 @@ export default {
 </script>
 
 <style scoped>
+/*VISUAL STYLES ---------------------*/
+/*note inherited core CSS from default.vue*/
 footer {
   display:inline;
   pointer-events: all;
@@ -55,34 +57,30 @@ address {
   position: sticky;
   bottom: 0px;
   z-index: -5;
-  padding-top: 30px;
 }
-.row {
-  margin-bottom: 0px;
-}
+
 .emphasis {
   font-size: 20px;
   font-weight: bold;
   border: 0px;
   border-top: 1px;
   border-style: solid;
+
 }
 .footer_spiel {
-  padding-top: 5px;
   font-size: 10px;
   border: 0px;
   border-top: 1px;
   border-style: solid;
-  margin-top: 30px;
 }
-.small {
-  position: absolute;
-  margin-top: -4px;
-}
+/*LAYOUT STYLES --------------------*/
+/*see default.vue */
+
 
 @media only screen and (max-width: 700px) {
   .mobile_spacer {
     margin-bottom: 100px;
   }
 }
+
 </style>

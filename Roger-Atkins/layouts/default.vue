@@ -46,7 +46,7 @@ body {
   src: url('/fonts/Roboto-Regular.ttf');
 }
 
-/*For use with the slide out footer*/
+/*wrapping element for use with the slide out/under footer*/
 .wrapping_element {
   pointer-events: all;
   z-index: 1;
@@ -81,5 +81,18 @@ hr.gradient {
 }
 .padding_bottom_100 {
   padding-bottom: 100px;
+}
+.row_zero_margin {
+  margin-bottom: 0px;
+}
+.small {
+  position: absolute;
+  margin-top: -4px;
+}
+.padding_thirty {
+  padding-top: 30px;
+}
+.margin_top_thirty {
+  margin-top: 30px;
 }
 </style>

@@ -74,7 +74,7 @@ export default {
   },
 
   mounted() {
-    //generate a randum number based on the length of the quotations array and grab a quote on component mount
+    //generate a random number based on the length of the quotations array and grab a quote on component mount
     const generate_number = (max) => {
       return Math.floor(Math.random() * Math.floor(max));
     }
