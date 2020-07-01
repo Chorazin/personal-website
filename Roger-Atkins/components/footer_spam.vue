@@ -44,7 +44,7 @@ export default {
 /*note inherited core CSS from default.vue*/
 footer {
   display:inline;
-  pointer-events: all;
+  pointer-events: auto;
 }
 address {
   font-style: normal;
