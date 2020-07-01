@@ -2,7 +2,7 @@
   <footer>
     <div class='footer_spacer_test center padding_thirty'>
       <div class='row_zero_margin row'>
-        <div class='col l4 m12 s12 mobile_spacer'>
+        <div class='col l4 m12 s12 mobile_spacer events'>
           <span class='emphasis'>EXPLORE</span><br/><br/>
           <nuxt-link :to='{name: "index"}'>Home <i class="material-icons small">keyboard_arrow_right</i></nuxt-link><br/>
           <nuxt-link :to='{name: "about"}'>About <i class="material-icons small">keyboard_arrow_right</i></nuxt-link></br/>
@@ -11,7 +11,7 @@
           <nuxt-link :to='{name: "build"}'>Site Build <i class="material-icons small">keyboard_arrow_right</i></nuxt-link><br/>
           <nuxt-link :to='{name: "personal_projects"}'>Projects <i class="material-icons small">keyboard_arrow_right</i></nuxt-link><br/>
         </div>
-        <div class='col l4 m12 s12 mobile_spacer'>
+        <div class='col l4 m12 s12 mobile_spacer events'>
           <span class='emphasis'>CONTACT</span><br/><br/>
           <address>
             Roger Atkins<br/>
@@ -20,7 +20,7 @@
             LOCATION: Georgetown 2298, Newcastle, Australia
           </address>
         </div>
-        <div class='col l4 m12 s12'>
+        <div class='col l4 m12 s12 events'>
           <span class='emphasis'>FOR THE BOTS</span><br/><br/>
           <a href='sitemap.xml'>sitemap</a>
         </div>
@@ -44,7 +44,6 @@ export default {
 /*note inherited core CSS from default.vue*/
 footer {
   display:inline;
-  pointer-events: auto;
 }
 address {
   font-style: normal;
@@ -72,6 +71,9 @@ address {
   border: 0px;
   border-top: 1px;
   border-style: solid;
+}
+.events {
+    pointer-events: auto;
 }
 /*LAYOUT STYLES --------------------*/
 /*see default.vue */
