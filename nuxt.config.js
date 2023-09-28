@@ -1,6 +1,11 @@
 
 export default {
   mode: 'universal',
+  target: 'static',
+  ssr: false,
+  generate: {
+    fallback: true
+  },
   /*
   ** Headers of the page
   */
@@ -28,7 +33,7 @@ export default {
   ** Global CSS
   */
   css: [
-    '@/assets/css/materialize-css/sass/materialize.scss'
+    '@/assets/css/materialize/css/materialize.css'
   ],
 
   /*

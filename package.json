@@ -1,0 +1,29 @@
+{
+  "name": "roger-atkins",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "author": "Roger Atkins",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start",
+    "heroku-postbuild": "npm run build"
+  },
+  "dependencies": {
+    "@nuxtjs/sitemap": "^2.3.2",
+    "nuxt": "^2.12.2",
+    "sass": "^1.68.0"
+  },
+  "main": "nuxt.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chorazin/personal-website.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chorazin/personal-website/issues"
+  },
+  "homepage": "https://github.com/Chorazin/personal-website#readme"
+}
