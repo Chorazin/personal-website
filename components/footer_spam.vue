@@ -15,9 +15,9 @@
           <span class='emphasis'>CONTACT</span><br/><br/>
           <address>
             Roger Atkins<br/>
-            PHONE: 0429232307<br/>
+            PHONE: 0434593655<br/>
             EMAIL: <a href="mailto:chorazin@gmail.com">chorazin@gmail.com</a><br/>
-            LOCATION: Georgetown 2298, Newcastle, Australia
+            LOCATION: Hamilton 2303, Newcastle, Australia
           </address>
         </div>
         <div class='col l4 m12 s12 events'>
