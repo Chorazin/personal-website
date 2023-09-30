@@ -4,12 +4,16 @@
   "description": "Personal Website",
   "author": "Roger Atkins",
   "private": true,
+  "overrides": {
+    "webpack-dev-middleware": "5.0.0"
+    },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "generate": "nuxt generate",
     "start": "nuxt start"
   },
+  
   "dependencies": {
     "@nuxtjs/sitemap": "^2.3.2",
     "nuxt": "^2.12.2",
