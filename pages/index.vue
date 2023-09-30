@@ -60,7 +60,9 @@ export default {
         {quote: '"Give a man a program, frustrate him for a day. Teach a man to program, frustrate him for a lifetime."', author: 'Muhammad Waseem'},
         {quote: '"I quickly came to realise code is a superpower"', author: 'Karlie Kloss'},
         {quote: '"One man\'s crappy software is another man\'s full time job"', author: 'Jessica Gaston'},
-        {quote: '"If debugging is the process of removing software bugs, then programming must be the process of putting them in"', author: 'Edsger Dijkstra'}
+        {quote: '"If debugging is the process of removing software bugs, then programming must be the process of putting them in"', author: 'Edsger Dijkstra'},
+        {quote: '"No one in the brief history of computing has ever written a piece of perfect software. It\'s unlikely that you\'ll be the first."', author: 'Andy Hunt'},
+        {quote: '"If you don\'t hear any complaints from users, they are not using the software - or your support email is broken."', author: 'Atli Björgvin Oddsson'}
       ],
 
       show: false,
