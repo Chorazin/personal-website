@@ -7,7 +7,7 @@
           <h4 class='underline'>Hosting?</h4>
         </p>
         <p class='date'>
-            Written by: Roger Atkins - Dev | Web | Design - 15/5/2020 <br/><br/>
+            Written by: Roger Atkins - Dev | Web | Design - 30/09/2023 <br/><br/>
         </p>
         <p>
           So for this website I decided to try out Nuxt.js, a framework for Vue.js, yes I know, a framework for a library.
@@ -34,7 +34,9 @@
           based around design components, built out of smaller building blocks.
         </p>
         <p>
-          For hosting I went with Heroku, I don't think my job application traffic will ever push my free Dyno to cap so seemed a good option.
+          For hosting I went with Heroku initiall back in 2020, I don't think my job application traffic will ever push my free Dyno to cap so seemed a good option. But recently
+          Heroku went to a paid only format, no free Dyno's for small personal projects so I have shifted my hosting to Vercel.
+          Vercel even has it's own CLI for projects and for deployment from Git.
         </p>
       </div>
       <div class='spacer_vertical_100'>
