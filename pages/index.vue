@@ -2,7 +2,7 @@
   <div class='home'>
     <div class='row quotes hide-on-small-only'>
       <div class='col s4'></div>
-      <div class='col s4'>
+      <div class='col s4 text_shadows'>
         <transition name='slide_one' appear>
           <div class='lobs width_400' v-if='show'>
             {{sorted_array.quote}}
@@ -151,6 +151,9 @@ export default {
   margin-top: 75px
 }
 
+.text_shadows {
+  text-shadow: 1px 1px 2px black;
+}
 
 
 /*media queries layout adjustment for mobile positioning*/
