@@ -4,9 +4,6 @@
   "description": "Personal Website",
   "author": "Roger Atkins",
   "private": true,
-  "overrides": {
-    "webpack-dev-middleware": "5.0.0"
-  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
