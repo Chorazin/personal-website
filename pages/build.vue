@@ -21,11 +21,19 @@
         <p>
           The site build itself is pretty straight forward from a technical standpoint. No database operations to worry about, no middleware, no pulling of content from microservices. No authentication,
           not even really enough data being passed around to warrant a Vuex store which comes pre packaged with Nuxt if you need it. I created a few components to make my life easier,
-          such as the parallax areas i can just pass an object to containing the information about which image to use and which quote.
+          such as the parallax areas i can just pass an object to containing the information about which image to use and which quote. 
         </p>
         <p>
-          So why Nuxt over say Gridsome? It simply was a flip of the coin to tell the truth, I could of gone with either framework. Next time around I will probably give
-          Gridsome a try. For my CSS I opted for Materialize CSS framework, based on Google's material design. I'd used Vuetify in a recent project and wanted to go back to bashing away at
+          I guess the main technical wizardry
+          comes from the Git to Vercel pipeline. As soon as I update the website on my local dev build, commit and push to master, Vercel rebundles and rebuilds the site from my Git repo. The whole process
+          being automated makes it a breeze to update and deploy. There were some hiccups along the way, and it is 90% of the time to do with dependencies and versioning. I had all kinds of errors
+          when I first fired up this project after 3 years. Node-sass out of date, I got the wonderfully dscriptive ERROR  context.outputFileSystem.lstat is not a function Webpack error.
+          Turns out nuxt-webpack@2.16.3 uses memory-fs, a deprecated package which does not include an lstat function (hence the error message) but webpack-dev-middleware requires this function as of
+          a commit on Sept 08 2021. I swear I spend more time setting up and configuring dev environments and trouble shooting errors related to them than actually coding.
+        </p>
+        <p>
+          So why Nuxt over say Gridsome or React's Next.js? It simply was a flip of the coin to tell the truth, I could of gone with either framework. Next time around I will probably give
+          Gridsome or Next.js a try. For my CSS I opted for Materialize CSS framework, based on Google's material design. I'd used Vuetify in a recent project and wanted to go back to bashing away at
           Materialize. Although in hindsight I think I should have done a dive into TailwindCSS as it seems to be gaining a lot of traction.
         </p>
         <p>
@@ -34,7 +42,7 @@
           based around design components, built out of smaller building blocks.
         </p>
         <p>
-          For hosting I went with Heroku initiall back in 2020, I don't think my job application traffic will ever push my free Dyno to cap so seemed a good option. But recently
+          For hosting I went with Heroku initially back in 2020, I don't think my job application traffic will ever push my free Dyno to cap so seemed a good option. But recently
           Heroku went to a paid only format, no free Dyno's for small personal projects so I have shifted my hosting to Vercel.
           Vercel even has it's own CLI for projects and for deployment from Git.
         </p>

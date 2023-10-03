@@ -10,6 +10,7 @@
           <p class='date'>
             Written by: Roger Atkins - Dev | Web | Design - 18/3/2020 <br/><br/>
           </p>
+          <p>
             I still recall when our lead Java developer, a grin on his face, dropped a massive tome on my desk that looked like it belonged to a Wizard.
             'This is some kind of mistake' I thought, 'I want to learn Javascript, not practice the arcane arts'. And thus began my long on and off again
             relationship with javascript. To be fair I kind of had an idea of what I was getting myself into. Long days I sat the next desk over from
@@ -37,7 +38,7 @@
             threaded nature see a lot more use nowadays. Once you have done all the required tasks in this function, then go execute my callback function.
           </p>
           <p>
-            Now let us look at an example of how much modern Javascript rocks. Granted it still has issues, I think it always will.
+            Now let us look at an example of how much modern Javascript rocks. Granted it still has issues, and they are summed up perfectly in <a href="https://www.youtube.com/watch?v=Uo3cL4nrGOk&t=74s">this video.</a>
             It was built as a glue language for Netscape. Marc Andreessen, the founder of Netscape, believed that HTML needed a "glue language".
             That was easy to use by Web designers and part-time programmers to assemble components such as images and plugins, where the code could be
             written directly in the Web page markup. Based on Java syntax Brendan Eich wrote the prototype in 10 days, called Mocha internally it went
