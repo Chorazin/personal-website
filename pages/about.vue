@@ -37,7 +37,7 @@
       </div>
       <parallax_comp v-bind:parallax_info='parallax_info_4'/>
       <div class='container'><div>
-        <p>
+     
             <h4 class='underline'>Where to from here?</h4>
           For now my tech stack I like to build with is Vue.js(CLI 3.0) and it's surrounding ecosystem, such as
         <div class='row'>
