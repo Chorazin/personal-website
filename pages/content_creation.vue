@@ -8,7 +8,7 @@
             <h4 class='underline'>Adobe Suite?</h4>
           </p>
           <p class='date'>
-              Written by: Roger Atkins - Dev | Web | Design - 3/4/2020 <br/><br/>
+              Written by: Roger Atkins - Dev | Web | Design - 03/10/2023 <br/><br/>
           </p>
           <p>
             Content creation has been by far the biggest time sink building this site.
@@ -28,8 +28,8 @@
           <p>
             SEO and optimisation for organic results, whew. Id like to start off by saying this is a key problem with modern Javascript frameworks and
             Google's crawl bots, although they are improving, it is why I chose Nuxt.js to build this site. SSR(Server Side Rendering), having the pages accessible and able to
-            be crawled by Google(and others) adds to SEO rankings, how much exactly? Well as is the case with SEO it is hard to gauge. I am by no means an SEO/marketing expert
-            but I feel I have some solid foundations to build upon.
+            be crawled by Google(and others) adds to SEO rankings, how much exactly? Well as is the case with SEO it is hard to gauge. I have decent experience with SEO/marketing
+            but every day you are learning something new in this sphere. A new tool, a better way of approaching analytics, a better way of aggregating data. 
           </p>
           <p>
             For myself I have been in content creation from a marketing/advertising perspective mostly. Utilising tools such as the ubiquitous <a href='https://www.adobe.com/au/' target='blank'>Adobe Suite</a>.
@@ -43,7 +43,7 @@
         <div class='row video_spacer'>
           <div class='col m12 s12 center'>
             <video controls width='818' height='460'>
-              <source src='../assets/simple_cc_clip_v001.mp4' type='video/mp4'>
+              <source src='simple_cc_clip_v001.mp4' type='video/mp4'>
               <source src='movie.ogg' type='video/ogg'>
             </video>
           </div>
@@ -56,9 +56,8 @@
       <div class='container'>
         <p>
           <h4 class='underline'>What next?</h4>
-          Looking forward from a content creation perspective I am looking to do a deep dive into Davinci Resolve. With an eventual goal of moving away from Adobe, this is more
-          for the fact I find the Adobe pay setup very inflexible. And Figma, I have done a few tutorials and built some simple stuff with it but I would like to spend some
-          time learning it's nuances.
+          Looking forward from a content creation perspective I am looking to do a deep dive into Davinci Resolve. And Figma, I have decent experience with Figma now for wireframing and interactive
+          prototype development. Unfortunately Figma was acquired by Adobe so I see it moving to the inflexible pay scheme with the other Adobe products.
         </p>
         <p>
           For my 3d output and workflow not a lot will change, there is no getting around the fact that 3d is labour intensive, from concept art and illustrations. Through
