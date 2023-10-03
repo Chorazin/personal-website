@@ -6,11 +6,12 @@
         <p>
           <h4 class='underline'>The Ramblings of a Mad Man!</h4>
           <p class='date'>
-            Written by: Roger Atkins - Dev | Web | Design - 12/3/2020 <br/><br/>
+            Written by: Roger Atkins - Dev | Web | Design - 03/10/2023 <br/><br/>
         </p>
           Well about myself I guess, firstly I am a long time Tottenham Hotspur supporter, although I feel sufferer is a better description. And a
           bit of a Cricket tragic. I am also a Newcastle Jets fan(go the Jets) and have been a Newcastle local for oh, 20 odd years now, although I have lived
-          in Sydney before, in Artarmon and grew up in Port Macquarie.
+          in Sydney before, in Artarmon and grew up in Port Macquarie. Recently I have just returned to Australia after living in Indonesia working remotely as a digital marketing manager.
+
         </p>
         <p>
           I got into web simply because I was interested in HTML initially, then CSS. And eventually when you get frustrated with the limitations using just
