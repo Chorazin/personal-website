@@ -39,7 +39,7 @@
       <div class='container'><div>
      
             <h4 class='underline'>Where to from here?</h4>
-          For now my tech stack I like to build with is Vue.js(CLI 3.0) and it's surrounding ecosystem, such as
+          For now my tech stack I like to build with is Vue.js(Nuxt framework) and it's surrounding ecosystem, such as
         <div class='row'>
           <div class='col s12 m4'>
             <ul>
@@ -69,13 +69,11 @@
           </div>
         </div>
         <p>
-          A rough road map would look something like trying a more structured and OO approach to CSS. A decoupling of visual design and layout design and a more component based
-          approach to CSS. I recently attended a great talk by <a href='https://www.youtube.com/watch?v=ZWPMzJfJHnc' target='_blank'>Mike Riethmuller on CSS
-          Architecture for Modern Web Applications</a> which takes the CSS in JS paradigm to the next level.
+          A rough road map would look something like trying a deep dive into React and Next.js.
         </p>
         <p>
           GraphQL. I have already written a simple <a href='https://github.com/Chorazin/graphql_test_bed' target='_blank'>backend for GraphQL with MongoDb</a> but I want to expand upon that and plug in a front
-          end ui to replace the Graphiql query interface. So probably building it out in something like Vue, Vue-Apollo(yes im a bit of a Vue.js fanboi).
+          end ui to replace the Graphiql query interface. So probably building it out in something like Vue, Vue-Apollo.
         </p>
         <p>
           <a href='https://tailwindcss.com/' target='_blank'>Tailwind.css</a>, this is gaining a bit of traction, and you can see why after using common CSS frameworks like Bulma, Materialize, Vuetify, Bootstrap,
@@ -83,12 +81,12 @@
           edit the source code of materialize on specific z-index's. Even changing the default colours in these frameworks is sometimes not as straightforward as you would think.
         </p>
         <p>
-          React.js, it is so big. So very very big, it is there in the background, maybe something I will look to learn long term. With my solid JS background and after investing a lot of time in Vue.js
+          As stated React.js, it is so big. So very very big, it is there in the background, maybe something I will look to learn long term. With my solid JS background and after investing a lot of time in Vue.js
           I think that will give me a good platform for learning React. I am quite happy to pick up any software and have a bash, and I understand project constraints. If you have three React developers
           an Angular dev and Vue dev, you go with React.
         </p>
         <p>
-          For CMS's I try not to focus too much on these, there are just so many in the market now. Joomla, Drupal, Wordpress, Composer, Gatsby, Concrete, Magento, Kajona, Mambo, and on and on it goes.
+          For CMS's I try not to focus too much on these, there are just so many in the market now to keep up with. Joomla, Drupal, Wordpress, Composer, Gatsby, Concrete, Magento, Kajona, Mambo, and on and on it goes.
           Literally hundreds of them. And that is before talking about new trending tech such as headless CMS's like Butter, Contentstack, Contentful, dotCMS, Mura, Zesty.io, Cosmic JS, etc etc.
           Or ecommerce platforms like BigCommerce, Shopify, 3dcart, WooCommerce, Weebly, Squarespace, volusion, etc etc. I have used some of these in passing over the years, but I more focus on the Core
           technologies, Javascript, CSS, HTML.
@@ -96,8 +94,6 @@
         <p>
           From a work perspective, I am kind of looking for a place to call home for the next 2-3 years in the Hunter area. With Front End development I feel you really need to take time out to invest
           in your skill set periodically or you are left behind. So every couple of years is a good time to review your skills, what is new in the industry? What is gaining traction?
-          <a href='https://flutter.dev/' target='_blank'>Flutter</a>, <a href='https://vuejs.org/' target='_blank'>Vue.js</a>(version 3.0 coming soon), <a href='https://emotion.sh/docs/introduction' target='_blank'>Emotion</a>
-          all could be big in the coming years.
         </p>
 
         <br/>

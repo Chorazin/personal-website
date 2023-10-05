@@ -8,8 +8,7 @@
       </div>
       <div class='col l4 m12 s12'>
         <p>
-          Ok now lets wind the clock back, before the bathosphere of ES6 descended from the lighthouse to
-          carry us to the promised land of Rapture. And to be fair, how javascript actually sets up objects under the hood with the prototype model
+          Ok now lets wind the clock back and look at how javascript actually sets up objects under the hood with the prototype model
           and the __proto__ you will see greyed out in the console with the methods attached.
 
         </p>

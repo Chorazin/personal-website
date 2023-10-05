@@ -38,7 +38,7 @@
             threaded nature see a lot more use nowadays. Once you have done all the required tasks in this function, then go execute my callback function.
           </p>
           <p>
-            Now let us look at an example of how much modern Javascript rocks. Granted it still has issues, and they are summed up perfectly in <a href="https://www.youtube.com/watch?v=Uo3cL4nrGOk&t=74s">this video.</a>
+            Now let us look at an example of how much modern Javascript rocks. Granted it still has issues, and they are summed up perfectly in <a href="https://www.youtube.com/watch?v=Uo3cL4nrGOk&t=74s" target="_blank">this video.</a>
             It was built as a glue language for Netscape. Marc Andreessen, the founder of Netscape, believed that HTML needed a "glue language".
             That was easy to use by Web designers and part-time programmers to assemble components such as images and plugins, where the code could be
             written directly in the Web page markup. Based on Java syntax Brendan Eich wrote the prototype in 10 days, called Mocha internally it went
