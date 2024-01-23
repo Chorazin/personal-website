@@ -1,14 +1,17 @@
 <template>
   <section>
     <div class='container row icon_section center-align'>
-      <div class='col m4 s4'>
+      <div class='col m3 s3'>
         <link_flip v-bind:link_info = 'link_info_one' />
       </div>
-      <div class='col m4 s4'>
+      <div class='col m3 s3'>
         <link_flip v-bind:link_info = 'link_info_two' />
       </div>
-      <div class='col m4 s4'>
+      <div class='col m3 s3'>
         <link_flip v-bind:link_info = 'link_info_three' />
+      </div>
+      <div class='col m3 s3'>
+        <link_flip v-bind:link_info = 'link_info_four' />
       </div>
     </div>
   </section>
@@ -43,6 +46,11 @@ export default {
         link: 'personal_projects',
         header: 'PROJECTS',
         icon: 'cloud_circle'
+      },
+      link_info_four: {
+        link: 'ui-ux',
+        header: 'UI/UX',
+        icon: 'bolt'
       }
     }
   }

@@ -34,7 +34,7 @@ export default {
   css: [
     '@/assets/css/materialize/css/materialize.css'
   ],
-
+  
   /*
   ** Plugins to load before mounting the App
   */

@@ -34,7 +34,7 @@ export default {
 .svg_container {
   position: relative;
   line-height: 0;
-
+  margin-bottom: 2px;
 }
 svg {
   z-index: 2;
@@ -67,6 +67,8 @@ h3 {
   margin-top: 0px;
   font-family: Impact, Charcoal, sans-serif;
 }
+
+
 
 
 

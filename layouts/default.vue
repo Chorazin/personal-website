@@ -29,7 +29,9 @@ export default {
   --main_gold_color: #eaa000;
   --main_grey_text_color: #9e9e9e;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: var(--main_bg_color);
   color: var(--main_grey_text_color);
