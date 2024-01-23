@@ -4,13 +4,11 @@
     <article>
       <div class='container'>
         <p>
-        <h4 class='underline'>UI-UX</h4>
+        <h4 class='underline'>UI-UX THIS PAGE IS UNDER CONSTRUCTION</h4>
         </p>
         <p class='date'>
           Written by: Roger Atkins - Dev | Web | Design - 16/1/2024 <br /><br />
         </p>
-
-
         <p>
           I have spent a bit of time thinking about a succinct way to unpack my latest UI/UX work project and describe it
           without turning it into an essay. And unfortunately, I think there is no way to get around the fact this is
