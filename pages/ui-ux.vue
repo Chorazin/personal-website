@@ -54,7 +54,7 @@
         <div class="spacer_vertical_100"></div>
         <h4 class="cardsec_title">BENEFITS OF A BLENDED LEARNING PLATFORM</h4>
         <!-- ROW 1 -->
-        <div class="row">
+        <div class="row flex">
           <div class="col s12 m6">
             <div class="card card_1">
               <div class="card-content black-text">
@@ -80,7 +80,7 @@
           </div>
         </div>
         <!-- ROW 2 -->
-        <div class="row">
+        <div class="row flex">
           <div class="col s12 m6">
             <div class="card card_1">
               <div class="card-content black-text">
@@ -108,7 +108,7 @@
           </div>
         </div>
         <!-- ROW 3 -->
-        <div class="row">
+        <div class="row flex">
           <div class="col s12 m6">
             <div class="card card_1">
               <div class="card-content black-text">
@@ -125,7 +125,7 @@
         <div class="spacer_vertical_100"></div>
         <h4 class="cardsec_title">CHALLENGES OF A BLENDED LEARNING PLATFORM</h4>
         <!-- ROW 4 -->
-        <div class="row">
+        <div class="row flex">
           <div class="col s12 m6">
             <div class="card card_1">
               <div class="card-content black-text">
@@ -153,7 +153,7 @@
           </div>
         </div>
         <!-- ROW 5 -->
-        <div class="row">
+        <div class="row flex">
           <div class="col s12 m6">
             <div class="card card_1">
               <div class="card-content black-text">
@@ -186,7 +186,25 @@
             interviews and I expressed this to the company, but with the timeframe in place and ticking they wanted to
             just
             leverage all the feedback and analytics we already had on hand by stakeholders on the platform.
+            <div class='spacer_vertical_100'></div>
+            <div class="row flex">
+              <div class="col s12 m6 black txt_gold">
+                <h4>Lucyana Freeman</h4>
+                I would like say 'Thank You' to the team at Estia. When I subscribed to your service, I really didn't
+                believe that you would actually deliver everything that you said you would. You hear from companies
+                telling you that they will do this and they will do that, but most of the time they don't deliver - it's
+                all a big con! But not Estia! I can really recommend Estia to anyone that wants only the very best
+                education programs and support for their children. The programs are terrific and educationally sound and
+                the tutors are fantastic with their follow-up and assistance with even the slightest question. It's really
+                been a very affordable investment in our son and younger daughter's future! Well done Exemplar for making
+                it worthwhile! <br /><br />
 
+                Mrs Freeman - Kew"
+              </div>
+              <div class="col s12 m6">
+                <img class='responsive-img' src='~/assets/person_1_v001.jpg'>
+              </div>
+            </div>
             <h3>FEEDBACK</h3>
             I spent quite a few hours going over existing feedback for the system and we had some clear recurring issues.
             These I separated into two categories, quick fixes whereby functionality wise from an engineering perspective
@@ -200,7 +218,7 @@
             mobile. I decided to keep this format as I think this is an excellent way to move forward. By having each
             student/child represented as an individual card on the parents dashboard, but there were some key pain points
             that needed to be resolved.
-            <div class="row top_margin_100">
+            <div class="row top_margin_100 flex">
               <div class="col s12 m6">
                 <div class="card card_2 black">
                   <div class="card-content">
@@ -292,20 +310,65 @@ export default {
     const elems = document.querySelectorAll('.parallax');
     const instances = M.Parallax.init(elems);
 
+    const cards = document.querySelectorAll('.card');
+    function getRandomInt(max) {
+      return Math.floor(Math.random() * max + 1);
+
+    }
+
+    //Intersection observer setup and animation for cards
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        let randno = getRandomInt(500);
+
+        //set a timeout for when the animation starts based on the randomy generated number
+        setTimeout(() => {
+          entry.target.classList.toggle('reveal', entry.isIntersecting)
+        }, randno);
+
+
+        //remove the observer once it triggers the above forEach loop
+        if (entry.isIntersecting) {
+          observer.unobserve(entry.target);
+        }
+      })
+
+    }, { rootMargin: "1px" });
+
+    //setup to watch the cards on the page
+    cards.forEach(card => {
+
+      observer.observe(card);
+
+    })
+
   }
 }
+
+
+
+
+
 </script>
   
 <style scoped>
 .card_1 {
   background-color: var(--main_gold_color);
   min-height: 15rem;
+  
   border-radius: 10px;
+  opacity: 0;
 }
 
 .card_2 {
   min-height: 15rem;
+
   border-radius: 10px;
+  color: var(--main_gold_color);
+  opacity: 0;
+}
+
+.txt_gold {
   color: var(--main_gold_color);
 }
 
@@ -325,4 +388,37 @@ export default {
 
   margin-bottom: -35px !important;
 }
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.reveal {
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 600px) {
+.card_1, .card_2 {
+  height: 100%;
+}
+}
+
 </style>
